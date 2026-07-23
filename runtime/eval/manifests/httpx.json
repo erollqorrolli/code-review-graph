@@ -1,0 +1,4421 @@
+{
+  "repo": "httpx",
+  "pin": "b55d4635701d9dc22928ee647880c76b078ba3f2",
+  "filter": {
+    "window": 2000,
+    "max_files": 15,
+    "min_seeds": 2,
+    "pkg_dirs": [
+      "httpx/"
+    ]
+  },
+  "n_commits": 274,
+  "n_seeds": 944,
+  "commits": [
+    {
+      "sha": "364697efcafe39290358745da8be451a40a3eab2",
+      "seeds": [
+        "httpx/_exceptions.py",
+        "httpx/_urls.py"
+      ],
+      "changed": [
+        "httpx/_exceptions.py",
+        "httpx/_urls.py",
+        "requirements.txt",
+        "tests/test_content.py"
+      ]
+    },
+    {
+      "sha": "4189b7f051c6c51ce74c3bee1a5f269f9c50c6b2",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_models.py"
+      ]
+    },
+    {
+      "sha": "80960fa31918d7663c3f4c3ad61661cf0e80628f",
+      "seeds": [
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_transports/default.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "CHANGELOG.md",
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_transports/default.py",
+        "httpx/_types.py"
+      ]
+    },
+    {
+      "sha": "a33c87852b8a0dddc65e5f739af1e0a6fca4b91f",
+      "seeds": [
+        "httpx/_models.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_models.py",
+        "httpx/_types.py"
+      ]
+    },
+    {
+      "sha": "47f4a96ffaaaa07dca1614409549b5d7a6e7af49",
+      "seeds": [
+        "httpx/__version__.py",
+        "httpx/_decoders.py"
+      ],
+      "changed": [
+        "CHANGELOG.md",
+        "README.md",
+        "httpx/__version__.py",
+        "httpx/_decoders.py",
+        "tests/test_decoders.py"
+      ]
+    },
+    {
+      "sha": "7b19cd5f4b749064c6452892a5e58a3758da1d1b",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_utils.py",
+        "tests/client/test_headers.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "1805ee0d22f96e2b29f0500dd3076e10020004bf",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_main.py",
+        "httpx/_transports/default.py",
+        "httpx/_urls.py"
+      ],
+      "changed": [
+        "CHANGELOG.md",
+        "docs/advanced/ssl.md",
+        "docs/contributing.md",
+        "httpx/__init__.py",
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_main.py",
+        "httpx/_transports/default.py",
+        "httpx/_urls.py",
+        "tests/test_config.py"
+      ]
+    },
+    {
+      "sha": "41597adffa9d34171a63f7511fc0f702558dd08c",
+      "seeds": [
+        "httpx/_models.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_models.py",
+        "httpx/_utils.py",
+        "scripts/lint",
+        "tests/models/test_headers.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "6212e8fa3bf90154b891c7721f6d29737caac861",
+      "seeds": [
+        "httpx/_multipart.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_multipart.py",
+        "httpx/_utils.py"
+      ]
+    },
+    {
+      "sha": "83a85189c79708b732d04e7b906e388fb0fbde94",
+      "seeds": [
+        "httpx/_models.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_models.py",
+        "httpx/_utils.py"
+      ]
+    },
+    {
+      "sha": "12be5c44caa7a34bfe19f82eace5150ddeba2612",
+      "seeds": [
+        "httpx/_config.py",
+        "httpx/_transports/default.py"
+      ],
+      "changed": [
+        "CHANGELOG.md",
+        "httpx/_config.py",
+        "httpx/_transports/default.py",
+        "tests/client/test_proxies.py"
+      ]
+    },
+    {
+      "sha": "e9cabc8e1deb6548c5c5e2f453e343d39a2a5321",
+      "seeds": [
+        "httpx/__version__.py",
+        "httpx/_config.py",
+        "httpx/_main.py",
+        "httpx/_transports/default.py"
+      ],
+      "changed": [
+        "CHANGELOG.md",
+        "httpx/__version__.py",
+        "httpx/_config.py",
+        "httpx/_main.py",
+        "httpx/_transports/default.py",
+        "tests/test_api.py",
+        "tests/test_config.py"
+      ]
+    },
+    {
+      "sha": "ba2e51215e4e619540f2a24282b84ed8a738e6fd",
+      "seeds": [
+        "httpx/_urlparse.py",
+        "httpx/_urls.py"
+      ],
+      "changed": [
+        "httpx/_urlparse.py",
+        "httpx/_urls.py",
+        "tests/models/test_url.py"
+      ]
+    },
+    {
+      "sha": "609df7ecc0f7cb10a1c998aa9c269bba77337c5f",
+      "seeds": [
+        "httpx/__version__.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "CHANGELOG.md",
+        "httpx/__version__.py",
+        "httpx/_types.py"
+      ]
+    },
+    {
+      "sha": "359f77d4f6ea722d02c3731e9581456c6386e188",
+      "seeds": [
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_types.py",
+        "httpx/_urls.py"
+      ],
+      "changed": [
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_types.py",
+        "httpx/_urls.py"
+      ]
+    },
+    {
+      "sha": "392dbe45f086d0877bd288c5d68abf860653b680",
+      "seeds": [
+        "httpx/_compat.py",
+        "httpx/_decoders.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "CHANGELOG.md",
+        "README.md",
+        "docs/index.md",
+        "docs/quickstart.md",
+        "httpx/_compat.py",
+        "httpx/_decoders.py",
+        "httpx/_models.py",
+        "pyproject.toml",
+        "requirements.txt",
+        "tests/client/test_client.py",
+        "tests/client/test_event_hooks.py",
+        "tests/client/test_headers.py",
+        "tests/test_asgi.py",
+        "tests/test_decoders.py",
+        "tests/test_main.py"
+      ]
+    },
+    {
+      "sha": "0006ed0547f8f8a3cbe2edf758e996c3c73b5e7d",
+      "seeds": [
+        "httpx/_compat.py",
+        "httpx/_decoders.py",
+        "httpx/_exceptions.py",
+        "httpx/_transports/default.py",
+        "httpx/_urlparse.py"
+      ],
+      "changed": [
+        "httpx/_compat.py",
+        "httpx/_decoders.py",
+        "httpx/_exceptions.py",
+        "httpx/_transports/default.py",
+        "httpx/_urlparse.py",
+        "pyproject.toml",
+        "tests/client/test_auth.py",
+        "tests/test_auth.py",
+        "tests/test_multipart.py"
+      ]
+    },
+    {
+      "sha": "c6907c22034e2739c4c1af89908e3c9f90602788",
+      "seeds": [
+        "httpx/_config.py",
+        "httpx/_multipart.py"
+      ],
+      "changed": [
+        "httpx/_config.py",
+        "httpx/_multipart.py",
+        "requirements.txt"
+      ]
+    },
+    {
+      "sha": "2318fd822cdb16435ccb5cabcba16c0b7969c1e4",
+      "seeds": [
+        "httpx/_content.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_content.py",
+        "httpx/_utils.py",
+        "tests/client/test_redirects.py",
+        "tests/models/test_requests.py",
+        "tests/models/test_responses.py",
+        "tests/test_content.py"
+      ]
+    },
+    {
+      "sha": "1e110964736a95d822144390b99d7ecf17fca527",
+      "seeds": [
+        "httpx/_decoders.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_decoders.py",
+        "httpx/_models.py",
+        "tests/test_decoders.py"
+      ]
+    },
+    {
+      "sha": "f8981f3d124f9b8db9073fd5c8afa11acb55a738",
+      "seeds": [
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_main.py",
+        "httpx/_transports/default.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "CHANGELOG.md",
+        "docs/advanced.md",
+        "docs/compatibility.md",
+        "docs/contributing.md",
+        "docs/troubleshooting.md",
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_main.py",
+        "httpx/_transports/default.py",
+        "httpx/_types.py",
+        "tests/client/test_proxies.py"
+      ]
+    },
+    {
+      "sha": "fd60b1815cf92354d097ac46aea63ebc0f34fd21",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_decoders.py",
+        "httpx/_exceptions.py",
+        "httpx/_main.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py",
+        "httpx/_transports/default.py",
+        "httpx/_urlparse.py",
+        "httpx/_urls.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_decoders.py",
+        "httpx/_exceptions.py",
+        "httpx/_main.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py",
+        "httpx/_transports/default.py",
+        "httpx/_urlparse.py",
+        "httpx/_urls.py",
+        "pyproject.toml",
+        "tests/client/test_auth.py",
+        "tests/models/test_cookies.py",
+        "tests/test_config.py",
+        "tests/test_multipart.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "87f39f12c9ecdd0ebcd8d017235698e72567e9c7",
+      "seeds": [
+        "httpx/_auth.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_content.py",
+        "httpx/_decoders.py",
+        "httpx/_models.py",
+        "httpx/_transports/default.py"
+      ],
+      "changed": [
+        "CHANGELOG.md",
+        "httpx/_auth.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_content.py",
+        "httpx/_decoders.py",
+        "httpx/_models.py",
+        "httpx/_transports/default.py",
+        "tests/client/test_async_client.py",
+        "tests/client/test_auth.py",
+        "tests/client/test_client.py"
+      ]
+    },
+    {
+      "sha": "1d73150c1f663757d63585aecfcb329d0ec00825",
+      "seeds": [
+        "httpx/_models.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_models.py",
+        "httpx/_utils.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "7c9db49f0c6c454fa6d0d7bdbd0d71c0a0cbacfd",
+      "seeds": [
+        "httpx/_compat.py",
+        "httpx/_config.py"
+      ],
+      "changed": [
+        ".github/workflows/publish.yml",
+        ".github/workflows/test-suite.yml",
+        "CHANGELOG.md",
+        "httpx/_compat.py",
+        "httpx/_config.py",
+        "pyproject.toml"
+      ]
+    },
+    {
+      "sha": "a54ecccd5b7e61b29ec13df45ecc0b82a2c168bb",
+      "seeds": [
+        "httpx/_config.py",
+        "httpx/_transports/default.py"
+      ],
+      "changed": [
+        "CHANGELOG.md",
+        "httpx/_config.py",
+        "httpx/_transports/default.py"
+      ]
+    },
+    {
+      "sha": "f1157dbc4102ac8e227a0a0bb12a877f592eff58",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "docs/environment_variables.md",
+        "docs/logging.md",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_utils.py",
+        "mkdocs.yml",
+        "tests/test_utils.py",
+        "tests/utils.py"
+      ]
+    },
+    {
+      "sha": "6779fae5eeab56575358c47e30e7d3913a09c18b",
+      "seeds": [
+        "httpx/_content.py",
+        "httpx/_transports/default.py"
+      ],
+      "changed": [
+        "httpx/_content.py",
+        "httpx/_transports/default.py",
+        "requirements.txt"
+      ]
+    },
+    {
+      "sha": "59914c7690573d5f9b17bce4172405294cb08278",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_auth.py",
+        "httpx/_client.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "docs/environment_variables.md",
+        "httpx/__init__.py",
+        "httpx/_auth.py",
+        "httpx/_client.py",
+        "httpx/_utils.py",
+        "tests/client/test_auth.py",
+        "tests/client/test_properties.py",
+        "tests/fixtures/.netrc-nopassword",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "a6af45edac51dce888e1e1f0ebf344f126a1c66c",
+      "seeds": [
+        "httpx/_urlparse.py",
+        "httpx/_urls.py"
+      ],
+      "changed": [
+        "httpx/_urlparse.py",
+        "httpx/_urls.py",
+        "tests/models/test_url.py"
+      ]
+    },
+    {
+      "sha": "57daabf673705954afa94686c0002801c93d31f3",
+      "seeds": [
+        "httpx/_urlparse.py",
+        "httpx/_urls.py"
+      ],
+      "changed": [
+        "README.md",
+        "docs/index.md",
+        "httpx/_urlparse.py",
+        "httpx/_urls.py",
+        "pyproject.toml",
+        "tests/models/test_url.py",
+        "tests/test_asgi.py",
+        "tests/test_urlparse.py"
+      ]
+    },
+    {
+      "sha": "40a0da093b423ca37feee2b85df7c3f0ce3cc96c",
+      "seeds": [
+        "httpx/_types.py",
+        "httpx/_urls.py"
+      ],
+      "changed": [
+        "httpx/_types.py",
+        "httpx/_urls.py",
+        "tests/models/test_url.py"
+      ]
+    },
+    {
+      "sha": "57aa5b08a48c82a6e1a1500e131d94a31128b6f9",
+      "seeds": [
+        "httpx/_compat.py",
+        "httpx/_config.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_compat.py",
+        "httpx/_config.py",
+        "httpx/_utils.py",
+        "setup.cfg",
+        "tests/conftest.py"
+      ]
+    },
+    {
+      "sha": "2d37321842c566b1fd81f9627ab4072064286d16",
+      "seeds": [
+        "httpx/_decoders.py",
+        "httpx/_main.py",
+        "httpx/_models.py",
+        "httpx/_urls.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_decoders.py",
+        "httpx/_main.py",
+        "httpx/_models.py",
+        "httpx/_urls.py",
+        "httpx/_utils.py",
+        "setup.cfg",
+        "tests/conftest.py",
+        "tests/test_content.py"
+      ]
+    },
+    {
+      "sha": "69e13cbc393ee13624d0e4aa4b6f861a95e3f91c",
+      "seeds": [
+        "httpx/_config.py",
+        "httpx/_content.py",
+        "httpx/_status_codes.py",
+        "httpx/_transports/mock.py"
+      ],
+      "changed": [
+        "httpx/_config.py",
+        "httpx/_content.py",
+        "httpx/_status_codes.py",
+        "httpx/_transports/mock.py",
+        "setup.cfg",
+        "tests/test_config.py",
+        "tests/test_content.py"
+      ]
+    },
+    {
+      "sha": "1b4e7fbb4825aefa0bce9565af94499bc3ae8c76",
+      "seeds": [
+        "httpx/_auth.py",
+        "httpx/_main.py",
+        "httpx/_models.py",
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/mock.py",
+        "httpx/_transports/wsgi.py",
+        "httpx/_urls.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_auth.py",
+        "httpx/_main.py",
+        "httpx/_models.py",
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/mock.py",
+        "httpx/_transports/wsgi.py",
+        "httpx/_urls.py",
+        "httpx/_utils.py",
+        "setup.cfg",
+        "tests/client/test_auth.py"
+      ]
+    },
+    {
+      "sha": "75a13a15aa8fea10367b791747a89463a978fa3e",
+      "seeds": [
+        "httpx/_compat.py",
+        "httpx/_transports/mock.py"
+      ],
+      "changed": [
+        "httpx/_compat.py",
+        "httpx/_transports/mock.py"
+      ]
+    },
+    {
+      "sha": "1ba3e2ad4c08772d1a826a192410fa0f1e61f171",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_types.py"
+      ]
+    },
+    {
+      "sha": "8752e2672c451f66040c8ed533456872a94dcf0f",
+      "seeds": [
+        "httpx/_content.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_content.py",
+        "httpx/_types.py",
+        "tests/test_content.py"
+      ]
+    },
+    {
+      "sha": "0ebe9259aca97baf4cadf112b0aa47152bec426c",
+      "seeds": [
+        "httpx/_multipart.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_multipart.py",
+        "httpx/_types.py",
+        "tests/test_multipart.py"
+      ]
+    },
+    {
+      "sha": "8152c4facd0f71e0f376287e41a0810a60fec9c6",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_content.py",
+        "httpx/_main.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_content.py",
+        "httpx/_main.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py",
+        "httpx/_types.py"
+      ]
+    },
+    {
+      "sha": "ccd98b1a6de221fa4b497de7f7bdf89b1347024d",
+      "seeds": [
+        "httpx/_models.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_models.py",
+        "httpx/_types.py"
+      ]
+    },
+    {
+      "sha": "f13ab4d288d0b790f6f1c515a6c0ea45e9615748",
+      "seeds": [
+        "httpx/_models.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_models.py",
+        "httpx/_utils.py"
+      ]
+    },
+    {
+      "sha": "1526048c9417ac3c715592cbc9b5947d5779824e",
+      "seeds": [
+        "httpx/_content.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py"
+      ],
+      "changed": [
+        "httpx/_content.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py",
+        "tests/test_multipart.py"
+      ]
+    },
+    {
+      "sha": "344e01e98ae528332960d34c3eca98f5472eeabf",
+      "seeds": [
+        "httpx/_compat.py",
+        "httpx/_transports/mock.py"
+      ],
+      "changed": [
+        "httpx/_compat.py",
+        "httpx/_transports/mock.py",
+        "requirements.txt"
+      ]
+    },
+    {
+      "sha": "9baf3a6cd2fa9ebeb17dba5a3e5c6e9e0af83a96",
+      "seeds": [
+        "httpx/_models.py",
+        "httpx/_types.py",
+        "httpx/_urls.py"
+      ],
+      "changed": [
+        "httpx/_models.py",
+        "httpx/_types.py",
+        "httpx/_urls.py",
+        "tests/client/test_proxies.py",
+        "tests/models/test_url.py"
+      ]
+    },
+    {
+      "sha": "1c33a2854e5d18955c8766c5c01e6229716b5b7a",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "README.md",
+        "README_chinese.md",
+        "docs/advanced.md",
+        "docs/index.md",
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "requirements.txt",
+        "setup.py",
+        "tests/client/test_client.py",
+        "tests/models/test_responses.py",
+        "tests/test_decoders.py"
+      ]
+    },
+    {
+      "sha": "14a1704be507cf435fa84da75c249c2ecd1c3981",
+      "seeds": [
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_content.py",
+        "httpx/_decoders.py",
+        "httpx/_exceptions.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py",
+        "httpx/_transports/base.py",
+        "httpx/_transports/default.py",
+        "httpx/_types.py",
+        "httpx/_urls.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_content.py",
+        "httpx/_decoders.py",
+        "httpx/_exceptions.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py",
+        "httpx/_transports/base.py",
+        "httpx/_transports/default.py",
+        "httpx/_types.py",
+        "httpx/_urls.py",
+        "httpx/_utils.py",
+        "setup.cfg",
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "67c297069f3d6b034069882428e4c1dd303d693c",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_compat.py"
+      ],
+      "changed": [
+        ".github/workflows/test-suite.yml",
+        "README.md",
+        "README_chinese.md",
+        "docs/index.md",
+        "httpx/_client.py",
+        "httpx/_compat.py",
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "d07c4b4407b4f7ee1fef29b9e3f6fd57de407b51",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_types.py",
+        "httpx/_urls.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_types.py",
+        "httpx/_urls.py"
+      ]
+    },
+    {
+      "sha": "4401d55ecf0d95be237098b6c73c45420d54d499",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_utils.py",
+        "tests/client/test_redirects.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "420911bc693ec3a7f2fbd81c18cffb8fdb12e4c8",
+      "seeds": [
+        "httpx/_decoders.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_decoders.py",
+        "httpx/_models.py",
+        "tests/models/test_responses.py"
+      ]
+    },
+    {
+      "sha": "8dc9b6bd59114439128d23a60609bee09daf508c",
+      "seeds": [
+        "httpx/_config.py",
+        "httpx/_transports/default.py"
+      ],
+      "changed": [
+        "README.md",
+        "docs/advanced.md",
+        "docs/index.md",
+        "httpx/_config.py",
+        "httpx/_transports/default.py",
+        "requirements.txt",
+        "setup.py",
+        "tests/client/test_proxies.py",
+        "tests/test_config.py"
+      ]
+    },
+    {
+      "sha": "0f1ff50a1e88ddee0c7ffe4ef1c04f0dc30cc6ab",
+      "seeds": [
+        "httpx/_multipart.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_multipart.py",
+        "httpx/_types.py",
+        "tests/test_multipart.py"
+      ]
+    },
+    {
+      "sha": "83c81aa9b8ef0f7825df413a673e6d9300065f3a",
+      "seeds": [
+        "httpx/_main.py",
+        "httpx/_multipart.py"
+      ],
+      "changed": [
+        "httpx/_main.py",
+        "httpx/_multipart.py"
+      ]
+    },
+    {
+      "sha": "82ba15b52189eacec74f2ec7dbd81f3c70a69261",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_content.py",
+        "httpx/_models.py",
+        "httpx/_transports/base.py",
+        "httpx/_transports/default.py",
+        "httpx/_types.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "CHANGELOG.md",
+        "docs/advanced.md",
+        "docs/compatibility.md",
+        "httpx/_client.py",
+        "httpx/_content.py",
+        "httpx/_models.py",
+        "httpx/_transports/base.py",
+        "httpx/_transports/default.py",
+        "httpx/_types.py",
+        "httpx/_utils.py",
+        "tests/client/test_proxies.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "6f5865f8605b2cf15872388c3d9bc3623bbf265e",
+      "seeds": [
+        "httpx/_content.py",
+        "httpx/_multipart.py"
+      ],
+      "changed": [
+        "httpx/_content.py",
+        "httpx/_multipart.py",
+        "tests/test_content.py"
+      ]
+    },
+    {
+      "sha": "61188feeaec598116996ddffa801a104363be924",
+      "seeds": [
+        "httpx/__version__.py",
+        "httpx/_client.py",
+        "httpx/_main.py",
+        "httpx/_transports/default.py"
+      ],
+      "changed": [
+        "httpx/__version__.py",
+        "httpx/_client.py",
+        "httpx/_main.py",
+        "httpx/_transports/default.py",
+        "setup.py",
+        "tests/client/test_proxies.py",
+        "tests/test_exceptions.py",
+        "tests/test_main.py",
+        "tests/test_timeouts.py"
+      ]
+    },
+    {
+      "sha": "fa03b489f0fcd0df53afa8f9c471e24949f09e3e",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/default.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/default.py",
+        "httpx/_utils.py",
+        "requirements.txt",
+        "setup.cfg"
+      ]
+    },
+    {
+      "sha": "ee9250d60bc5cf49b4949fc961a82b42f9ab1bcc",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/__version__.py",
+        "httpx/_main.py"
+      ],
+      "changed": [
+        "CHANGELOG.md",
+        "README.md",
+        "docs/compatibility.md",
+        "docs/img/httpx-help.png",
+        "docs/img/httpx-request.png",
+        "docs/index.md",
+        "docs/quickstart.md",
+        "httpx/__init__.py",
+        "httpx/__version__.py",
+        "httpx/_main.py",
+        "requirements.txt",
+        "setup.py",
+        "tests/conftest.py",
+        "tests/test_main.py"
+      ]
+    },
+    {
+      "sha": "a761e17abc9649d62dd1ff4c9df975c5ed1c6f99",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_status_codes.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_status_codes.py",
+        "tests/models/test_responses.py"
+      ]
+    },
+    {
+      "sha": "ff9813e84dab56f0f3c4ef3a159a4cce8c644a91",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_content.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py",
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/base.py",
+        "httpx/_transports/default.py",
+        "httpx/_transports/mock.py",
+        "httpx/_transports/wsgi.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_content.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py",
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/base.py",
+        "httpx/_transports/default.py",
+        "httpx/_transports/mock.py",
+        "httpx/_transports/wsgi.py",
+        "httpx/_types.py",
+        "tests/client/test_auth.py",
+        "tests/client/test_redirects.py",
+        "tests/test_asgi.py"
+      ]
+    },
+    {
+      "sha": "47266d763bdef9dc99f9c9d09d49d441b87802e6",
+      "seeds": [
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "docs/compatibility.md",
+        "docs/quickstart.md",
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "tests/client/test_event_hooks.py",
+        "tests/client/test_redirects.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "d5143120d10f19cf2876179c9d80eaeac631bb52",
+      "seeds": [
+        "httpx/_compat.py",
+        "httpx/_decoders.py"
+      ],
+      "changed": [
+        "README.md",
+        "docs/index.md",
+        "httpx/_compat.py",
+        "httpx/_decoders.py",
+        "setup.py",
+        "tests/models/test_responses.py",
+        "tests/test_decoders.py"
+      ]
+    },
+    {
+      "sha": "acb5e6ac500fbe172f5958f480866da719aeb858",
+      "seeds": [
+        "httpx/_decoders.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "README.md",
+        "docs/index.md",
+        "httpx/_decoders.py",
+        "httpx/_models.py",
+        "setup.py",
+        "tests/models/test_responses.py",
+        "tests/test_decoders.py"
+      ]
+    },
+    {
+      "sha": "77246617ca6b5d282f3c3191a8532e5158005077",
+      "seeds": [
+        "httpx/_config.py",
+        "httpx/_transports/default.py"
+      ],
+      "changed": [
+        "httpx/_config.py",
+        "httpx/_transports/default.py",
+        "tests/test_config.py"
+      ]
+    },
+    {
+      "sha": "20e66d204864b320ba6816b501c6dca17e101836",
+      "seeds": [
+        "httpx/_multipart.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_multipart.py",
+        "httpx/_types.py",
+        "tests/test_multipart.py"
+      ]
+    },
+    {
+      "sha": "b43af721cd7804214396b5511e4f68d144a9b6a6",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_compat.py",
+        "httpx/_config.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_compat.py",
+        "httpx/_config.py",
+        "setup.cfg",
+        "tests/test_multipart.py"
+      ]
+    },
+    {
+      "sha": "9b17671f155aa857fb52911d94357147ba2a3ea4",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_transports/default.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_transports/default.py",
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "69409bb8b9e85caf2dd63f9b76f0aa920feaf4f1",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_client.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/_client.py"
+      ]
+    },
+    {
+      "sha": "2129a9789ad6a9ffb8655644fbe43a5b3e908db9",
+      "seeds": [
+        "httpx/_content.py",
+        "httpx/_multipart.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_content.py",
+        "httpx/_multipart.py",
+        "httpx/_utils.py",
+        "tests/test_content.py"
+      ]
+    },
+    {
+      "sha": "4fbf2751ec353b09fafe9e3b22cbe07e49a26442",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_models.py"
+      ]
+    },
+    {
+      "sha": "2abb2f214a57f990d7f4cda0f51d476b47cef165",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_utils.py",
+        "tests/models/test_queryparams.py"
+      ]
+    },
+    {
+      "sha": "6e55ca1af9fd1cb02f6f0916e9ceb7a9b9e82968",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_status_codes.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_status_codes.py",
+        "httpx/_utils.py",
+        "tests/client/test_client.py",
+        "tests/client/test_proxies.py",
+        "tests/test_status_codes.py"
+      ]
+    },
+    {
+      "sha": "2d571046e15d3f4c4cbe5a68173cdf12e99cb3ca",
+      "seeds": [
+        "httpx/_content.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_content.py",
+        "httpx/_models.py",
+        "tests/models/test_requests.py",
+        "tests/models/test_responses.py"
+      ]
+    },
+    {
+      "sha": "9b8f5af7596ab2208375a4d26b5b585d51b82b01",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_exceptions.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "docs/exceptions.md",
+        "httpx/__init__.py",
+        "httpx/_exceptions.py",
+        "httpx/_models.py",
+        "tests/models/test_responses.py"
+      ]
+    },
+    {
+      "sha": "6a99f6f2b3a638719f70200de9983f80d618ee1c",
+      "seeds": [
+        "httpx/_api.py",
+        "httpx/_client.py"
+      ],
+      "changed": [
+        "docs/compatibility.md",
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "tests/client/test_cookies.py"
+      ]
+    },
+    {
+      "sha": "966550b342b5fca28ab515016a77d31a5ab06c4c",
+      "seeds": [
+        "httpx/_exceptions.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_exceptions.py",
+        "httpx/_models.py",
+        "tests/models/test_requests.py"
+      ]
+    },
+    {
+      "sha": "8fd5b71016c10dd266a058966f3ff3843e3ce9c6",
+      "seeds": [
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_compat.py"
+      ],
+      "changed": [
+        "README.md",
+        "docs/index.md",
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_compat.py",
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "073a3284abbcecad68033053acf595ff749800a7",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "tests/client/test_async_client.py",
+        "tests/client/test_client.py",
+        "tests/models/test_responses.py"
+      ]
+    },
+    {
+      "sha": "4870cb5adf63f4377a71c0b5bef6146fcdb53a9c",
+      "seeds": [
+        "httpx/_api.py",
+        "httpx/_client.py"
+      ],
+      "changed": [
+        "httpx/_api.py",
+        "httpx/_client.py"
+      ]
+    },
+    {
+      "sha": "110ce8565259a3c6927352554eccd94ca5804463",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_content.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py",
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/base.py",
+        "httpx/_transports/default.py",
+        "httpx/_transports/mock.py",
+        "httpx/_transports/wsgi.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_content.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py",
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/base.py",
+        "httpx/_transports/default.py",
+        "httpx/_transports/mock.py",
+        "httpx/_transports/wsgi.py",
+        "httpx/_types.py",
+        "tests/test_content.py"
+      ]
+    },
+    {
+      "sha": "c26425aa58574f31491f46b7c757f9f374fabf46",
+      "seeds": [
+        "httpx/_content.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_content.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py",
+        "httpx/_utils.py",
+        "tests/test_content.py",
+        "tests/test_multipart.py"
+      ]
+    },
+    {
+      "sha": "6cb1672459b0c1386cb36b89a92b87419fdc478c",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "tests/client/test_client.py",
+        "tests/models/test_url.py"
+      ]
+    },
+    {
+      "sha": "89fb0cbc69ea07b123dd7b36dc1ed9151c5d398f",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_transports/default.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "docs/async.md",
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_transports/default.py",
+        "tests/client/test_proxies.py"
+      ]
+    },
+    {
+      "sha": "9c7c2ace99ce6732377e18d35bcdca1a8f1d37e4",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_transports/mock.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "httpx/__init__.py",
+        "httpx/_transports/mock.py",
+        "tests/client/test_async_client.py",
+        "tests/client/test_auth.py",
+        "tests/client/test_client.py",
+        "tests/client/test_cookies.py",
+        "tests/client/test_event_hooks.py",
+        "tests/client/test_headers.py",
+        "tests/client/test_queryparams.py",
+        "tests/client/test_redirects.py",
+        "tests/test_multipart.py",
+        "tests/utils.py"
+      ]
+    },
+    {
+      "sha": "86964054d60da7796c65e501ba021440b14cc36c",
+      "seeds": [
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_types.py",
+        "tests/models/test_queryparams.py"
+      ]
+    },
+    {
+      "sha": "d0835da230892bfa7ef42a5aed9dba8122a4359e",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_config.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "tests/test_config.py"
+      ]
+    },
+    {
+      "sha": "27df5e49c7a97a17f68862a3fa901c11e30a4b5a",
+      "seeds": [
+        "httpx/_decoders.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_decoders.py",
+        "httpx/_models.py",
+        "tests/models/test_responses.py",
+        "tests/test_decoders.py"
+      ]
+    },
+    {
+      "sha": "16f41a2baa6339748c86390b3223302a4a3ff033",
+      "seeds": [
+        "httpx/_models.py",
+        "httpx/_status_codes.py"
+      ],
+      "changed": [
+        "httpx/_models.py",
+        "httpx/_status_codes.py"
+      ]
+    },
+    {
+      "sha": "589c6e0f2f4f3821095bfc247417aa98a5dad838",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py",
+        "tests/test_multipart.py"
+      ]
+    },
+    {
+      "sha": "c725387b2deee4035bab43c564df0bbccaf99c52",
+      "seeds": [
+        "httpx/_models.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_models.py",
+        "httpx/_utils.py",
+        "tests/client/test_client.py"
+      ]
+    },
+    {
+      "sha": "0eed6a37340ba9d073da69574409be0d817ecae7",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_exceptions.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "docs/exceptions.md",
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_exceptions.py",
+        "httpx/_models.py",
+        "tests/client/test_async_client.py",
+        "tests/client/test_client.py",
+        "tests/client/test_redirects.py"
+      ]
+    },
+    {
+      "sha": "3f51392bea87eb983a7e91202240b827f5e7db3d",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "docs/api.md",
+        "docs/compatibility.md",
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "tests/client/test_redirects.py"
+      ]
+    },
+    {
+      "sha": "8e4a8a1c73f60fe5754f95b308beaa725cb8791d",
+      "seeds": [
+        "httpx/_auth.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_auth.py",
+        "httpx/_models.py",
+        "setup.cfg",
+        "tests/models/test_requests.py",
+        "tests/models/test_url.py"
+      ]
+    },
+    {
+      "sha": "f3c29416f12bc580b18f94538abfbc41ac06cce5",
+      "seeds": [
+        "httpx/_content.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_content.py",
+        "httpx/_models.py",
+        "tests/client/test_auth.py",
+        "tests/client/test_cookies.py",
+        "tests/client/test_headers.py",
+        "tests/client/test_queryparams.py",
+        "tests/client/test_redirects.py",
+        "tests/models/test_responses.py"
+      ]
+    },
+    {
+      "sha": "ed2768268644b3e3b173d4883af434fa29dbb418",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_utils.py"
+      ]
+    },
+    {
+      "sha": "354c4cac1f1796ee4d8861a4c978807398852ad5",
+      "seeds": [
+        "httpx/_content.py",
+        "httpx/_content_streams.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_content.py",
+        "httpx/_content_streams.py",
+        "httpx/_models.py",
+        "httpx/_multipart.py",
+        "httpx/_types.py",
+        "tests/test_content.py",
+        "tests/test_multipart.py"
+      ]
+    },
+    {
+      "sha": "fbb21fb1ae78e75c0a5656b4035820c0e586ccc0",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_auth.py",
+        "httpx/_client.py",
+        "httpx/_content_streams.py",
+        "httpx/_exceptions.py",
+        "httpx/_models.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "docs/exceptions.md",
+        "httpx/__init__.py",
+        "httpx/_auth.py",
+        "httpx/_client.py",
+        "httpx/_content_streams.py",
+        "httpx/_exceptions.py",
+        "httpx/_models.py",
+        "httpx/_types.py",
+        "tests/client/test_auth.py",
+        "tests/client/test_redirects.py",
+        "tests/models/test_requests.py",
+        "tests/models/test_responses.py",
+        "tests/test_content_streams.py",
+        "tests/test_multipart.py",
+        "tests/utils.py"
+      ]
+    },
+    {
+      "sha": "e1f7791e97cf7908b24eafdee70b4aa240609efe",
+      "seeds": [
+        "httpx/_models.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_models.py",
+        "httpx/_types.py",
+        "tests/utils.py"
+      ]
+    },
+    {
+      "sha": "09f94edd93fb69ccfdd347c4168ca2e5187a0120",
+      "seeds": [
+        "httpx/_content_streams.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_content_streams.py",
+        "httpx/_models.py",
+        "tests/test_content_streams.py",
+        "tests/test_multipart.py"
+      ]
+    },
+    {
+      "sha": "d0fe1139458f5636bcdc1dafd8b5bda5e845731a",
+      "seeds": [
+        "httpx/_decoders.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "docs/quickstart.md",
+        "httpx/_decoders.py",
+        "httpx/_models.py",
+        "setup.py",
+        "tests/client/test_client.py",
+        "tests/models/test_responses.py",
+        "tests/test_decoders.py"
+      ]
+    },
+    {
+      "sha": "62c6c1c8ad68556542d7b7a4be9dc6997bad1e01",
+      "seeds": [
+        "httpx/_models.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_models.py",
+        "httpx/_types.py"
+      ]
+    },
+    {
+      "sha": "5ee6135256ad058bad31a1f7efda022c377b88ec",
+      "seeds": [
+        "httpx/_content_streams.py",
+        "httpx/_models.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_content_streams.py",
+        "httpx/_models.py",
+        "httpx/_types.py",
+        "tests/models/test_responses.py",
+        "tests/test_content_streams.py",
+        "tests/test_decoders.py"
+      ]
+    },
+    {
+      "sha": "6006721c6d85f602e92c76e3c126073ea6cd19da",
+      "seeds": [
+        "httpx/_decoders.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_decoders.py",
+        "httpx/_models.py"
+      ]
+    },
+    {
+      "sha": "016e4ee210114bb97e631c0abcdbc462d2751ad5",
+      "seeds": [
+        "httpx/_auth.py",
+        "httpx/_client.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "httpx/_auth.py",
+        "httpx/_client.py",
+        "tests/client/test_auth.py",
+        "tests/test_auth.py"
+      ]
+    },
+    {
+      "sha": "a783fe57588864c95246cc82d9703ab2d5ff3cb4",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_utils.py",
+        "tests/models/test_responses.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "8fa87650b2ad3f8a07491a9de14caf02ea2e7e1a",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_transports/urllib3.py"
+      ],
+      "changed": [
+        "README.md",
+        "docs/advanced.md",
+        "docs/compatibility.md",
+        "docs/index.md",
+        "docs/third-party-packages.md",
+        "httpx/__init__.py",
+        "httpx/_transports/urllib3.py",
+        "scripts/coverage"
+      ]
+    },
+    {
+      "sha": "19b863af408123783d5f9916e71688b32ba558c8",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "tests/client/test_headers.py",
+        "tests/models/test_requests.py"
+      ]
+    },
+    {
+      "sha": "e0b4528b170be0835d1ed4ffcafd1141fa9dfc6d",
+      "seeds": [
+        "httpx/_decoders.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_decoders.py",
+        "httpx/_models.py",
+        "tests/models/test_responses.py",
+        "tests/test_decoders.py"
+      ]
+    },
+    {
+      "sha": "f5c27ec7f48cf3b7367bdcdfb8f9c2ccf189929b",
+      "seeds": [
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_config.py"
+      ],
+      "changed": [
+        "httpx/_api.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "requirements.txt",
+        "tests/client/test_auth.py",
+        "tests/models/test_responses.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "6e6ece66c633f0b1a74486d674f2019cb3f1c07f",
+      "seeds": [
+        "httpx/_models.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_models.py",
+        "httpx/_types.py",
+        "tests/models/test_cookies.py"
+      ]
+    },
+    {
+      "sha": "924fa8c9dc19f3a601db54a384158fef56f07c96",
+      "seeds": [
+        "httpx/_api.py",
+        "httpx/_client.py"
+      ],
+      "changed": [
+        "docs/api.md",
+        "httpx/_api.py",
+        "httpx/_client.py"
+      ]
+    },
+    {
+      "sha": "84ca2010e1147f0b0e264cafacb00ee5bacb6517",
+      "seeds": [
+        "httpx/_api.py",
+        "httpx/_client.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "docs/compatibility.md",
+        "httpx/_api.py",
+        "httpx/_client.py"
+      ]
+    },
+    {
+      "sha": "a226c60861f651b9874e31e66b3bb7f0db46c96d",
+      "seeds": [
+        "httpx/_api.py",
+        "httpx/_client.py"
+      ],
+      "changed": [
+        "httpx/_api.py",
+        "httpx/_client.py"
+      ]
+    },
+    {
+      "sha": "a4463d044f370aef186f3c64bd79e236e4df9e2a",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_types.py",
+        "tests/client/test_auth.py"
+      ]
+    },
+    {
+      "sha": "45de7145924e62aea7a2f6cbbc878ea6f8455ca7",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_exceptions.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_exceptions.py",
+        "httpx/_models.py",
+        "tests/client/test_redirects.py",
+        "tests/models/test_url.py",
+        "tests/test_api.py"
+      ]
+    },
+    {
+      "sha": "8c7729e42c9ebf860e75820d5325741b85d64970",
+      "seeds": [
+        "httpx/__version__.py",
+        "httpx/_config.py"
+      ],
+      "changed": [
+        "CHANGELOG.md",
+        "README.md",
+        "docs/index.md",
+        "httpx/__version__.py",
+        "httpx/_config.py",
+        "tests/test_config.py"
+      ]
+    },
+    {
+      "sha": "0a3869506391849b20e373a67157e5cef133fcee",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_utils.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "a3392c6ea7e887b23c1a9250b58ff11c7ea652df",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "tests/client/test_client.py",
+        "tests/client/test_properties.py"
+      ]
+    },
+    {
+      "sha": "1da46f3de0f4fda77657bf2f795b52c03c90c74e",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_models.py"
+      ]
+    },
+    {
+      "sha": "682cad39ebd7468f65d9590ed68bd03f5a7f8ec8",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_utils.py",
+        "tests/client/test_proxies.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "f67e925f72166ac89c4ff430540173b5910ec315",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_config.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "tests/client/test_client.py",
+        "tests/test_config.py",
+        "tests/test_timeouts.py"
+      ]
+    },
+    {
+      "sha": "71d52343052359c416a9e6252daa322abdf8dd90",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_utils.py",
+        "tests/client/test_proxies.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "9409900898f40ed855e9c7a7664b7e068599a07d",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_auth.py",
+        "httpx/_client.py",
+        "httpx/_decoders.py",
+        "httpx/_exceptions.py",
+        "httpx/_models.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/_auth.py",
+        "httpx/_client.py",
+        "httpx/_decoders.py",
+        "httpx/_exceptions.py",
+        "httpx/_models.py",
+        "httpx/_utils.py",
+        "tests/client/test_proxies.py",
+        "tests/test_asgi.py",
+        "tests/test_decoders.py",
+        "tests/test_wsgi.py"
+      ]
+    },
+    {
+      "sha": "e1a7d5a4ae5dae974ea2f0e7b820a8b114683c55",
+      "seeds": [
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/wsgi.py"
+      ],
+      "changed": [
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/wsgi.py"
+      ]
+    },
+    {
+      "sha": "16893e414fe68bd41890dc52f449328679a65134",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_types.py",
+        "tests/client/test_proxies.py"
+      ]
+    },
+    {
+      "sha": "df54890c15f49a7f6279e704941400d698b33c10",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_utils.py",
+        "tests/client/test_proxies.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "926a55a84f0add72f689182c5ca64b4135829907",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_transports/urllib3.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_transports/urllib3.py",
+        "tests/test_config.py"
+      ]
+    },
+    {
+      "sha": "35f09d13941647bb677f2749c4230bec664b8c15",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_models.py",
+        "httpx/_status_codes.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/_models.py",
+        "httpx/_status_codes.py",
+        "tests/test_status_codes.py"
+      ]
+    },
+    {
+      "sha": "c089480260771ebbe89c15ae1da1c251c8ad4373",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_utils.py",
+        "tests/client/test_proxies.py",
+        "tests/client/test_redirects.py",
+        "tests/models/test_requests.py",
+        "tests/models/test_url.py",
+        "tests/test_config.py"
+      ]
+    },
+    {
+      "sha": "7e6e35160f5c68150f2a9fba7e0dc889efc06510",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_utils.py",
+        "tests/client/test_async_client.py",
+        "tests/client/test_client.py",
+        "tests/models/test_requests.py",
+        "tests/models/test_url.py"
+      ]
+    },
+    {
+      "sha": "083d2e9aa0007cbe3f24a9bb2bdd9e5248b62091",
+      "seeds": [
+        "httpx/_auth.py",
+        "httpx/_client.py"
+      ],
+      "changed": [
+        "httpx/_auth.py",
+        "httpx/_client.py"
+      ]
+    },
+    {
+      "sha": "01287bac9999e3bc34171744e2a87064e0bbc2a1",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_exceptions.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_exceptions.py"
+      ]
+    },
+    {
+      "sha": "247ee0dc4919ab02bd6942d02e96337156653059",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "docs/api.md",
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_utils.py",
+        "tests/models/test_url.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "27b0dbc22da1424a020c2bb769c81490f39ce283",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_exceptions.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "docs/quickstart.md",
+        "httpx/__init__.py",
+        "httpx/_exceptions.py",
+        "httpx/_models.py",
+        "tests/client/test_async_client.py",
+        "tests/client/test_client.py"
+      ]
+    },
+    {
+      "sha": "ff93a011a44f4a76015e4866d01ff79a6afe350a",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_types.py",
+        "tests/models/test_queryparams.py"
+      ]
+    },
+    {
+      "sha": "3f96e74961f9faf013e5aff6c73a71f3b7bc2676",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_models.py",
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/urllib3.py",
+        "httpx/_transports/wsgi.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_models.py",
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/urllib3.py",
+        "httpx/_transports/wsgi.py",
+        "httpx/_utils.py",
+        "tests/client/test_async_client.py",
+        "tests/client/test_client.py",
+        "tests/test_exceptions.py"
+      ]
+    },
+    {
+      "sha": "2f0e0480da43330f6e6dc3aac0457cb5e6ab8470",
+      "seeds": [
+        "httpx/_auth.py",
+        "httpx/_config.py"
+      ],
+      "changed": [
+        "httpx/_auth.py",
+        "httpx/_config.py"
+      ]
+    },
+    {
+      "sha": "bacc2d18350d9f6645828461435fe6e19b9dc518",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_exceptions.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_exceptions.py",
+        "tests/test_exceptions.py"
+      ]
+    },
+    {
+      "sha": "6cf90395934a5f25cec69b3e7c11172df1aae40d",
+      "seeds": [
+        "httpx/_models.py",
+        "httpx/_transports/urllib3.py",
+        "httpx/_transports/wsgi.py"
+      ],
+      "changed": [
+        "httpx/_models.py",
+        "httpx/_transports/urllib3.py",
+        "httpx/_transports/wsgi.py",
+        "tests/client/test_headers.py",
+        "tests/client/test_redirects.py"
+      ]
+    },
+    {
+      "sha": "c53172d716a6f2b5d3a5d79187d33da2232def25",
+      "seeds": [
+        "httpx/_config.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "httpx/_config.py",
+        "httpx/_models.py"
+      ]
+    },
+    {
+      "sha": "4d287956fd5c14d6d3d9d451c5e99a8a90ad719b",
+      "seeds": [
+        "httpx/_content_streams.py",
+        "httpx/_types.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "httpx/_content_streams.py",
+        "httpx/_types.py",
+        "tests/test_content_streams.py"
+      ]
+    },
+    {
+      "sha": "620b0670db07ae844aa6fae40d9209a856440c9d",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_models.py"
+      ],
+      "changed": [
+        "docs/quickstart.md",
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "scripts/coverage",
+        "tests/client/test_auth.py",
+        "tests/client/test_proxies.py",
+        "tests/client/test_redirects.py",
+        "tests/concurrency.py",
+        "tests/conftest.py",
+        "tests/models/test_url.py",
+        "tests/test_asgi.py",
+        "tests/test_utils.py",
+        "tests/test_wsgi.py"
+      ]
+    },
+    {
+      "sha": "89a8100b6c1f2cf97f16bd7d3594211be88fbc93",
+      "seeds": [
+        "httpx/_models.py",
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/wsgi.py"
+      ],
+      "changed": [
+        "httpx/_models.py",
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/wsgi.py",
+        "tests/client/test_auth.py",
+        "tests/client/test_cookies.py",
+        "tests/client/test_headers.py",
+        "tests/client/test_queryparams.py",
+        "tests/client/test_redirects.py",
+        "tests/test_multipart.py",
+        "tests/test_timeouts.py"
+      ]
+    },
+    {
+      "sha": "3721a7869ef176f09bc60ca7ebea7dcbf93f2c46",
+      "seeds": [
+        "httpx/_types.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_types.py",
+        "httpx/_utils.py"
+      ]
+    },
+    {
+      "sha": "e724abdcd190eca5ac17e7da23fd79db5f10df7c",
+      "seeds": [
+        "httpx/_config.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_config.py",
+        "httpx/_utils.py"
+      ]
+    },
+    {
+      "sha": "991915a9350cf61261df94856291d0516b0218fd",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_transports/urllib3.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_transports/urllib3.py",
+        "tests/test_config.py"
+      ]
+    },
+    {
+      "sha": "9b6605c3d519142db7ebaf56c13094bf779c7dea",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/urllib3.py",
+        "httpx/_transports/wsgi.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/urllib3.py",
+        "httpx/_transports/wsgi.py",
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "d2816c9c48b6ea77c9644ea9229b3b212feed737",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_transports/__init__.py",
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/urllib3.py",
+        "httpx/_transports/wsgi.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "docs/async.md",
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_models.py",
+        "httpx/_transports/__init__.py",
+        "httpx/_transports/asgi.py",
+        "httpx/_transports/urllib3.py",
+        "httpx/_transports/wsgi.py",
+        "httpx/_utils.py",
+        "tests/client/test_auth.py",
+        "tests/client/test_proxies.py"
+      ]
+    },
+    {
+      "sha": "4c01117dd21acc0448f3e7f464aaa743fd8cffce",
+      "seeds": [
+        "httpx/_api.py",
+        "httpx/_auth.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_content_streams.py",
+        "httpx/_dispatch/urllib3.py",
+        "httpx/_models.py",
+        "httpx/_types.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_api.py",
+        "httpx/_auth.py",
+        "httpx/_client.py",
+        "httpx/_config.py",
+        "httpx/_content_streams.py",
+        "httpx/_dispatch/urllib3.py",
+        "httpx/_models.py",
+        "httpx/_types.py",
+        "httpx/_utils.py"
+      ]
+    },
+    {
+      "sha": "5829ecb648f4b53611ae7d6d9ae6df0babf2cfae",
+      "seeds": [
+        "httpx/_content_streams.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_content_streams.py",
+        "httpx/_utils.py",
+        "tests/test_multipart.py"
+      ]
+    },
+    {
+      "sha": "af75908b7ab9f406d9ec2b51f75d1218cf92d12b",
+      "seeds": [
+        "httpx/_backends/__init__.py",
+        "httpx/_backends/asyncio.py",
+        "httpx/_backends/auto.py",
+        "httpx/_backends/base.py",
+        "httpx/_backends/trio.py"
+      ],
+      "changed": [
+        "httpx/_backends/__init__.py",
+        "httpx/_backends/asyncio.py",
+        "httpx/_backends/auto.py",
+        "httpx/_backends/base.py",
+        "httpx/_backends/trio.py",
+        "tests/test_concurrency.py"
+      ]
+    },
+    {
+      "sha": "1c9b852783f065db1b495b587c1c986246355198",
+      "seeds": [
+        "httpx/_client.py",
+        "httpx/_exceptions.py"
+      ],
+      "changed": [
+        "httpx/_client.py",
+        "httpx/_exceptions.py"
+      ]
+    },
+    {
+      "sha": "8f400c269eddeb1f8fc4d63776d20bfde8217f56",
+      "seeds": [
+        "httpx/_content_streams.py",
+        "httpx/_models.py",
+        "httpx/_types.py",
+        "httpx/_utils.py"
+      ],
+      "changed": [
+        "httpx/_content_streams.py",
+        "httpx/_models.py",
+        "httpx/_types.py",
+        "httpx/_utils.py"
+      ]
+    },
+    {
+      "sha": "efe9f61bc2f047574c7b78bbd3d00ca74f930196",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_exceptions.py"
+      ],
+      "changed": [
+        ".gitignore",
+        "httpx/__init__.py",
+        "httpx/_client.py",
+        "httpx/_exceptions.py",
+        "tests/__init__.py",
+        "tests/client/test_redirects.py"
+      ]
+    },
+    {
+      "sha": "b3db9ff0b6554ed3a48ff912682f4a7d10c3f3f8",
+      "seeds": [
+        "httpx/_auth.py",
+        "httpx/_client.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "httpx/_auth.py",
+        "httpx/_client.py",
+        "tests/client/test_auth.py"
+      ]
+    },
+    {
+      "sha": "1f8fb28d93f796e55f31234dc792a14230b4ff9c",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/client.py",
+        "httpx/models.py",
+        "tests/client/test_redirects.py"
+      ]
+    },
+    {
+      "sha": "12dd157feaa26a3cd9fbf933e127fefb2ddd8404",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/auth.py",
+        "httpx/client.py",
+        "httpx/exceptions.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "httpx/__init__.py",
+        "httpx/auth.py",
+        "httpx/client.py",
+        "httpx/exceptions.py",
+        "httpx/models.py",
+        "tests/client/test_auth.py",
+        "tests/models/test_requests.py"
+      ]
+    },
+    {
+      "sha": "c5037f06e4ec1b550ee009147af052d9c2199ccb",
+      "seeds": [
+        "httpx/api.py",
+        "httpx/client.py"
+      ],
+      "changed": [
+        "httpx/api.py",
+        "httpx/client.py"
+      ]
+    },
+    {
+      "sha": "2b92a78c41544da0891d2c42c7e2a28174783c57",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/proxy_http.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/proxy_http.py",
+        "httpx/models.py",
+        "tests/models/test_url.py"
+      ]
+    },
+    {
+      "sha": "f17ab37b2f19e075b35546fe00766e7985462aae",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/config.py",
+        "httpx/decoders.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/config.py",
+        "httpx/decoders.py",
+        "httpx/models.py",
+        "tests/client/test_proxies.py",
+        "tests/test_config.py"
+      ]
+    },
+    {
+      "sha": "e1afbfa7b45d1ce717a7d9588c6c8114ee0a091b",
+      "seeds": [
+        "httpx/backends/asyncio.py",
+        "httpx/backends/trio.py",
+        "httpx/exceptions.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "httpx/backends/asyncio.py",
+        "httpx/backends/trio.py",
+        "httpx/exceptions.py",
+        "httpx/utils.py"
+      ]
+    },
+    {
+      "sha": "e19bd9bc4bf5849650a3847232a4b1353600635e",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/base.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/client.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/base.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/models.py",
+        "tests/client/test_auth.py",
+        "tests/client/test_cookies.py",
+        "tests/client/test_headers.py",
+        "tests/client/test_queryparams.py",
+        "tests/client/test_redirects.py",
+        "tests/test_multipart.py"
+      ]
+    },
+    {
+      "sha": "6ac49dacdd96f474467d276d2ff1b63edc382684",
+      "seeds": [
+        "httpx/backends/asyncio.py",
+        "httpx/backends/auto.py",
+        "httpx/backends/base.py",
+        "httpx/backends/trio.py"
+      ],
+      "changed": [
+        "httpx/backends/asyncio.py",
+        "httpx/backends/auto.py",
+        "httpx/backends/base.py",
+        "httpx/backends/trio.py",
+        "tests/concurrency.py",
+        "tests/conftest.py",
+        "tests/dispatch/test_connection_pools.py",
+        "tests/test_concurrency.py"
+      ]
+    },
+    {
+      "sha": "910aa9094c4dde3516f38086da30adf52127ba49",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/exceptions.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/exceptions.py",
+        "tests/client/test_redirects.py"
+      ]
+    },
+    {
+      "sha": "79a9748ae6df16b428c840d4bcdb5447c138df34",
+      "seeds": [
+        "httpx/config.py",
+        "httpx/dispatch/connection.py"
+      ],
+      "changed": [
+        "httpx/config.py",
+        "httpx/dispatch/connection.py",
+        "tests/test_config.py"
+      ]
+    },
+    {
+      "sha": "f5eaec7ab3ac6207e03dd007fa30ac740ea1606a",
+      "seeds": [
+        "httpx/backends/auto.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "httpx/backends/auto.py",
+        "httpx/utils.py",
+        "tests/concurrency.py",
+        "tests/dispatch/utils.py",
+        "tests/test_decoders.py"
+      ]
+    },
+    {
+      "sha": "11e7604d1ad0a59907245fa898b74da36cbaf77c",
+      "seeds": [
+        "httpx/content_streams.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/content_streams.py",
+        "httpx/models.py",
+        "tests/models/test_responses.py",
+        "tests/test_content_streams.py"
+      ]
+    },
+    {
+      "sha": "b0bf2a7513bdbe6877c4ff1f577bb968a8515ccf",
+      "seeds": [
+        "httpx/config.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/proxy_http.py"
+      ],
+      "changed": [
+        "httpx/config.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/proxy_http.py",
+        "tests/client/test_proxies.py",
+        "tests/dispatch/test_connections.py"
+      ]
+    },
+    {
+      "sha": "b8394f1e00d165544e315ee10ad67c8322ac15ae",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/config.py",
+        "httpx/dispatch/proxy_http.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/client.py",
+        "httpx/config.py",
+        "httpx/dispatch/proxy_http.py",
+        "httpx/models.py",
+        "tests/client/test_redirects.py",
+        "tests/dispatch/test_http2.py",
+        "tests/dispatch/utils.py",
+        "tests/models/test_responses.py",
+        "tests/test_decoders.py"
+      ]
+    },
+    {
+      "sha": "f5d4bb80742445804d4bd7d686395c0d8648ca86",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/config.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/config.py",
+        "httpx/models.py"
+      ]
+    },
+    {
+      "sha": "2c4a1dd519bcc770ac6ccbe9a0bebd84e46f7389",
+      "seeds": [
+        "httpx/dispatch/base.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py"
+      ],
+      "changed": [
+        "httpx/dispatch/base.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py"
+      ]
+    },
+    {
+      "sha": "56afde1f9f84311b9582b413b6e70bb9973e5921",
+      "seeds": [
+        "httpx/backends/asyncio.py",
+        "httpx/backends/trio.py"
+      ],
+      "changed": [
+        "httpx/backends/asyncio.py",
+        "httpx/backends/trio.py"
+      ]
+    },
+    {
+      "sha": "6a1ee0eb97a373ff6d9ff3413f417b675914e489",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "docs/api.md",
+        "httpx/client.py",
+        "httpx/models.py",
+        "tests/models/test_responses.py"
+      ]
+    },
+    {
+      "sha": "1f9d0154df4821587d6e008fe54df54d3c02c51b",
+      "seeds": [
+        "httpx/backends/asyncio.py",
+        "httpx/backends/auto.py",
+        "httpx/backends/base.py",
+        "httpx/backends/trio.py",
+        "httpx/dispatch/http2.py"
+      ],
+      "changed": [
+        "httpx/backends/asyncio.py",
+        "httpx/backends/auto.py",
+        "httpx/backends/base.py",
+        "httpx/backends/trio.py",
+        "httpx/dispatch/http2.py"
+      ]
+    },
+    {
+      "sha": "f9d18a87585bf5775bbdbe354319b5bc50d241be",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/dispatch/proxy_http.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "docs/api.md",
+        "docs/compatibility.md",
+        "docs/quickstart.md",
+        "httpx/client.py",
+        "httpx/dispatch/proxy_http.py",
+        "httpx/models.py",
+        "tests/client/test_async_client.py",
+        "tests/client/test_client.py",
+        "tests/dispatch/test_connection_pools.py",
+        "tests/dispatch/test_connections.py",
+        "tests/dispatch/test_proxy_http.py",
+        "tests/models/test_responses.py",
+        "tests/test_api.py",
+        "tests/test_decoders.py"
+      ]
+    },
+    {
+      "sha": "e9ebd1df98ce8f79bb09a0e6d06c4939f8a1f7fd",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/base.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/proxy_http.py"
+      ],
+      "changed": [
+        "httpx/client.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/base.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/proxy_http.py",
+        "tests/dispatch/test_connections.py"
+      ]
+    },
+    {
+      "sha": "e34df7a7a19b5ebdbad59a0b7e1a54b4f011811b",
+      "seeds": [
+        "httpx/backends/__init__.py",
+        "httpx/backends/asyncio.py",
+        "httpx/backends/auto.py",
+        "httpx/backends/base.py",
+        "httpx/backends/trio.py",
+        "httpx/client.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/proxy_http.py"
+      ],
+      "changed": [
+        "httpx/backends/__init__.py",
+        "httpx/backends/asyncio.py",
+        "httpx/backends/auto.py",
+        "httpx/backends/base.py",
+        "httpx/backends/trio.py",
+        "httpx/client.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/proxy_http.py",
+        "tests/concurrency.py",
+        "tests/conftest.py",
+        "tests/dispatch/utils.py",
+        "tests/test_concurrency.py"
+      ]
+    },
+    {
+      "sha": "36af9d959764a4b82d2a8bd30fb0904da0223e16",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/auto.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/connection_pool.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/auto.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/connection_pool.py"
+      ]
+    },
+    {
+      "sha": "5ee512d803d1d6b49dc171e1114f0075618de78e",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/client.py",
+        "httpx/models.py",
+        "tests/client/test_headers.py",
+        "tests/models/test_url.py"
+      ]
+    },
+    {
+      "sha": "6c69e0936b0ee1849f0749f04113ec3e6c92c9ff",
+      "seeds": [
+        "httpx/api.py",
+        "httpx/auth.py",
+        "httpx/client.py",
+        "httpx/middleware.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/api.py",
+        "httpx/auth.py",
+        "httpx/client.py",
+        "httpx/middleware.py",
+        "httpx/models.py",
+        "tests/client/test_auth.py"
+      ]
+    },
+    {
+      "sha": "8d4f18250022a8823f16006993900228e216146b",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/content.py",
+        "httpx/models.py",
+        "httpx/multipart.py"
+      ],
+      "changed": [
+        "httpx/client.py",
+        "httpx/content.py",
+        "httpx/models.py",
+        "httpx/multipart.py",
+        "tests/client/test_redirects.py",
+        "tests/dispatch/test_http2.py",
+        "tests/dispatch/utils.py",
+        "tests/models/test_requests.py",
+        "tests/test_content.py"
+      ]
+    },
+    {
+      "sha": "499de51f2b4772bff5dd3955474d349a0e9324e4",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/auto.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/auto.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "tests/dispatch/test_connection_pools.py"
+      ]
+    },
+    {
+      "sha": "869714fbf5f2a1bfda8d6f906930f49032507d7a",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py"
+      ]
+    },
+    {
+      "sha": "00a875db934b26868a8bb740d6bbf5ce344b1f65",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/auto.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/connection_pool.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/auto.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/connection_pool.py"
+      ]
+    },
+    {
+      "sha": "e95111ac07d31817ff9189379dc052c5d867bfe5",
+      "seeds": [
+        "httpx/dispatch/base.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py"
+      ],
+      "changed": [
+        "httpx/dispatch/base.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py"
+      ]
+    },
+    {
+      "sha": "eba29da632c3a0fce55a54fc18cd6b147db43726",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/auto.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/auto.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "tests/test_concurrency.py"
+      ]
+    },
+    {
+      "sha": "83fc0921c175f47607f864678b0b0bba4dbb0413",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/http11.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/http11.py"
+      ]
+    },
+    {
+      "sha": "bc54dd0399065e24e3886fda5b5246b925d8242a",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/trio.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/trio.py",
+        "tests/test_concurrency.py"
+      ]
+    },
+    {
+      "sha": "f55db15a01ce311b9d4229d9707aa58043a8eaed",
+      "seeds": [
+        "httpx/__version__.py",
+        "httpx/concurrency/auto.py"
+      ],
+      "changed": [
+        "CHANGELOG.md",
+        "httpx/__version__.py",
+        "httpx/concurrency/auto.py"
+      ]
+    },
+    {
+      "sha": "e1f5b8ba574e1fea4a9a79042f688f143c546f9d",
+      "seeds": [
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/proxy_http.py"
+      ],
+      "changed": [
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/proxy_http.py"
+      ]
+    },
+    {
+      "sha": "df9dc6d5160bad3a8c47d3f7b8f29e131756b1f3",
+      "seeds": [
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py"
+      ],
+      "changed": [
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py"
+      ]
+    },
+    {
+      "sha": "c38fd68ed78e08ee6056bfd69b50413fd06be988",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/auto.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/http2.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/auto.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/http2.py",
+        "tests/test_concurrency.py"
+      ]
+    },
+    {
+      "sha": "bb6e52f3566a79978f590e5a677eb057a68ad3a9",
+      "seeds": [
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/proxy_http.py"
+      ],
+      "changed": [
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/proxy_http.py"
+      ]
+    },
+    {
+      "sha": "8d8ea8bbbafcbd73840fa2b17a406eb485f11f9f",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/api.py",
+        "httpx/client.py"
+      ],
+      "changed": [
+        "docs/compatibility.md",
+        "docs/quickstart.md",
+        "httpx/__init__.py",
+        "httpx/api.py",
+        "httpx/client.py",
+        "tests/client/test_async_client.py",
+        "tests/client/test_client.py",
+        "tests/test_api.py",
+        "tests/test_timeouts.py"
+      ]
+    },
+    {
+      "sha": "e56e120175f4938d45c91c66bdd9b7f9d415e9bb",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/http2.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/http2.py"
+      ]
+    },
+    {
+      "sha": "2f54b200deda274fe71ca678419142329111d6f7",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/config.py",
+        "httpx/exceptions.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "docs/quickstart.md",
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/config.py",
+        "httpx/exceptions.py",
+        "tests/test_config.py"
+      ]
+    },
+    {
+      "sha": "eb7c6b0342cc998a9a305c97f8d95b886a533f14",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/base.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/proxy_http.py"
+      ],
+      "changed": [
+        "httpx/client.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/base.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/proxy_http.py",
+        "tests/client/test_proxies.py"
+      ]
+    },
+    {
+      "sha": "507695220236626152758f2b2d5ffe25a95ef98a",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/config.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/proxy_http.py"
+      ],
+      "changed": [
+        "docs/http2.md",
+        "httpx/client.py",
+        "httpx/config.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/proxy_http.py",
+        "tests/dispatch/test_http2.py"
+      ]
+    },
+    {
+      "sha": "3cbe7315e8e768371eff398ebb15a73a31fe601d",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/concurrency/auto.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/proxy_http.py"
+      ],
+      "changed": [
+        "README.md",
+        "httpx/client.py",
+        "httpx/concurrency/auto.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/proxy_http.py",
+        "setup.cfg",
+        "setup.py",
+        "tests/client/test_proxies.py"
+      ]
+    },
+    {
+      "sha": "ed949508a685d84d658b06807e2a9aeb5e3bedfa",
+      "seeds": [
+        "httpx/models.py",
+        "httpx/multipart.py"
+      ],
+      "changed": [
+        "httpx/models.py",
+        "httpx/multipart.py",
+        "tests/test_multipart.py"
+      ]
+    },
+    {
+      "sha": "248aa580a1931840acb1dfc22524f2ad71d63b61",
+      "seeds": [
+        "httpx/decoders.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/decoders.py",
+        "httpx/models.py",
+        "tests/models/test_responses.py",
+        "tests/test_decoders.py"
+      ]
+    },
+    {
+      "sha": "fdaa01275a1b80e54be4423e579f9a19f7c63d8f",
+      "seeds": [
+        "httpx/models.py",
+        "httpx/status_codes.py"
+      ],
+      "changed": [
+        "docs/compatibility.md",
+        "httpx/models.py",
+        "httpx/status_codes.py",
+        "tests/models/test_responses.py"
+      ]
+    },
+    {
+      "sha": "095b69184ab9ba63eacf6272780bd2a89d1bec94",
+      "seeds": [
+        "httpx/dispatch/asgi.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "httpx/dispatch/asgi.py",
+        "httpx/utils.py"
+      ]
+    },
+    {
+      "sha": "364378a814981044484ea68960be7860e75740f0",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/config.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/proxy_http.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/config.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/proxy_http.py",
+        "tests/test_config.py",
+        "tests/test_timeouts.py"
+      ]
+    },
+    {
+      "sha": "5fccc04da4b9490d2d1ff99600f374aa8800176b",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py"
+      ]
+    },
+    {
+      "sha": "abe0799d70b5c31341d28a23c7ff0d796a792854",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "httpx/client.py",
+        "httpx/utils.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "00e150f6a5f8d295faeadc34cfe53de254b3f264",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/auth.py",
+        "httpx/client.py",
+        "httpx/dispatch/proxy_http.py",
+        "httpx/middleware.py",
+        "httpx/middleware/__init__.py",
+        "httpx/middleware/basic_auth.py",
+        "httpx/middleware/custom_auth.py",
+        "httpx/middleware/redirect.py"
+      ],
+      "changed": [
+        "docs/index.md",
+        "httpx/__init__.py",
+        "httpx/auth.py",
+        "httpx/client.py",
+        "httpx/dispatch/proxy_http.py",
+        "httpx/middleware.py",
+        "httpx/middleware/__init__.py",
+        "httpx/middleware/basic_auth.py",
+        "httpx/middleware/custom_auth.py",
+        "httpx/middleware/redirect.py"
+      ]
+    },
+    {
+      "sha": "a05ba2e9148c3f74c80c68a727b7e52b3d751c8c",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/trio.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/trio.py",
+        "tests/concurrency.py",
+        "tests/test_concurrency.py"
+      ]
+    },
+    {
+      "sha": "f06ca87f9728346ba6b8550315b25a2c15ab8fb8",
+      "seeds": [
+        "httpx/dispatch/http11.py",
+        "httpx/exceptions.py"
+      ],
+      "changed": [
+        "httpx/dispatch/http11.py",
+        "httpx/exceptions.py",
+        "tests/conftest.py",
+        "tests/dispatch/test_connections.py"
+      ]
+    },
+    {
+      "sha": "7a96a2c896a6561b4571aa2fd79a1b0ba0d296a0",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py"
+      ],
+      "changed": [
+        "httpx/client.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "tests/client/test_async_client.py",
+        "tests/client/test_client.py",
+        "tests/conftest.py",
+        "tests/test_concurrency.py"
+      ]
+    },
+    {
+      "sha": "1a32cf036a825f6eb35395af5388a3b23180a82e",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/proxy_http.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/proxy_http.py",
+        "tests/dispatch/utils.py"
+      ]
+    },
+    {
+      "sha": "95b2b2430249c95e77c78789da598f810680a0df",
+      "seeds": [
+        "httpx/api.py",
+        "httpx/client.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "httpx/api.py",
+        "httpx/client.py"
+      ]
+    },
+    {
+      "sha": "08069e9368e1da5088173bde65c083ecbec92b96",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "docs/environment_variables.md",
+        "httpx/client.py",
+        "httpx/utils.py",
+        "tests/conftest.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "07586f97e85e1cdff1280016f1ee2a1e2ae764b5",
+      "seeds": [
+        "httpx/config.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/proxy_http.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "docs/environment_variables.md",
+        "httpx/config.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/proxy_http.py",
+        "httpx/utils.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "1ce3cc3269eb73d28a8371906baa80a70cdc8aba",
+      "seeds": [
+        "httpx/api.py",
+        "httpx/client.py"
+      ],
+      "changed": [
+        "docs/api.md",
+        "docs/css/custom.css",
+        "httpx/api.py",
+        "httpx/client.py",
+        "mkdocs.yml",
+        "noxfile.py"
+      ]
+    },
+    {
+      "sha": "644e8fc5b6c5678fc1c1916293c1afab56d60bad",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/proxy_http.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/proxy_http.py",
+        "tests/dispatch/utils.py",
+        "tests/test_concurrency.py"
+      ]
+    },
+    {
+      "sha": "84731c8be5ba682b04f9456a177430b8315f3188",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "httpx/client.py",
+        "httpx/utils.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "57ae7ea22b0a091ad9dbd01c327b80e8bc67e265",
+      "seeds": [
+        "httpx/models.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "httpx/models.py",
+        "httpx/utils.py",
+        "tests/models/test_queryparams.py"
+      ]
+    },
+    {
+      "sha": "86a0eb0268bdc4beeb90d8136546233cd8401b0e",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/asyncio/__init__.py",
+        "httpx/concurrency/asyncio/compat.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/asyncio/__init__.py",
+        "httpx/concurrency/asyncio/compat.py",
+        "tests/test_concurrency.py"
+      ]
+    },
+    {
+      "sha": "05f5dc26de7ed2c1b3ceeba0f2b873fcefc5907a",
+      "seeds": [
+        "httpx/concurrency/asyncio/backend.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/http2.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio/backend.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/http2.py",
+        "httpx/models.py",
+        "tests/client/test_auth.py",
+        "tests/client/test_proxies.py",
+        "tests/client/test_queryparams.py",
+        "tests/dispatch/test_http2.py",
+        "tests/dispatch/test_proxy_http.py",
+        "tests/models/test_queryparams.py"
+      ]
+    },
+    {
+      "sha": "71cbde8ba4cab32dd96ccb91e9db20216587fae9",
+      "seeds": [
+        "httpx/concurrency/asyncio/__init__.py",
+        "httpx/concurrency/asyncio/backend.py",
+        "httpx/concurrency/asyncio/compat.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio/__init__.py",
+        "httpx/concurrency/asyncio/backend.py",
+        "httpx/concurrency/asyncio/compat.py",
+        "tests/test_concurrency.py"
+      ]
+    },
+    {
+      "sha": "6752f7d6f6edfc244fb4718b3360b82f2d87fd76",
+      "seeds": [
+        "httpx/api.py",
+        "httpx/client.py"
+      ],
+      "changed": [
+        "docs/api.md",
+        "httpx/api.py",
+        "httpx/client.py"
+      ]
+    },
+    {
+      "sha": "336d22d73a31fc701d05209f7ef29c1ad5cf78fe",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/dispatch/proxy_http.py"
+      ],
+      "changed": [
+        "httpx/client.py",
+        "httpx/dispatch/proxy_http.py",
+        "tests/client/test_proxies.py"
+      ]
+    },
+    {
+      "sha": "e62e5c3758b10a8830c751acbe588d7b572a9957",
+      "seeds": [
+        "httpx/dispatch/asgi.py",
+        "httpx/models.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "httpx/dispatch/asgi.py",
+        "httpx/models.py",
+        "httpx/utils.py",
+        "tests/models/test_headers.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "c9810a79d9c61583165e9aa237d1ac039086f3a8",
+      "seeds": [
+        "httpx/config.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "docs/environment_variables.md",
+        "httpx/config.py",
+        "httpx/utils.py",
+        "tests/test_config.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "5dc646fb9fb4185669299fd14c06ba23c2b8782f",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "docs/api.md",
+        "httpx/client.py",
+        "httpx/models.py",
+        "tests/client/test_queryparams.py"
+      ]
+    },
+    {
+      "sha": "08355c62f56b899af15967906aa45392cd45dbdd",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/http2.py"
+      ],
+      "changed": [
+        "httpx/client.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/concurrency/trio.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/http2.py",
+        "setup.cfg",
+        "setup.py",
+        "test-requirements.txt",
+        "tests/concurrency.py",
+        "tests/conftest.py",
+        "tests/dispatch/test_connection_pools.py",
+        "tests/test_timeouts.py"
+      ]
+    },
+    {
+      "sha": "b0fa0859a8954edf7aaa5e4d64d85bd16765cd23",
+      "seeds": [
+        "httpx/api.py",
+        "httpx/client.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/models.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "docs/api.md",
+        "docs/environment_variables.md",
+        "httpx/api.py",
+        "httpx/client.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/models.py",
+        "httpx/utils.py",
+        "tests/client/test_proxies.py",
+        "tests/conftest.py",
+        "tests/dispatch/test_proxy_http.py",
+        "tests/dispatch/utils.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "05ac1176791b5bd4b76cc82a2c23a89b9fed5dbf",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/models.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "docs/api.md",
+        "httpx/client.py",
+        "httpx/models.py",
+        "httpx/utils.py",
+        "tests/client/test_async_client.py",
+        "tests/client/test_client.py",
+        "tests/conftest.py",
+        "tests/models/test_responses.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "315a18b4cf81f95683e6afdc10dba3c75eb512b7",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "tests/dispatch/utils.py",
+        "tests/test_concurrency.py"
+      ]
+    },
+    {
+      "sha": "57c27cac36f9ca28201e26e35ae4f79be2051a8e",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/api.py",
+        "httpx/client.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/proxy_http.py",
+        "httpx/exceptions.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/api.py",
+        "httpx/client.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/proxy_http.py",
+        "httpx/exceptions.py",
+        "httpx/models.py",
+        "tests/conftest.py",
+        "tests/dispatch/test_proxy_http.py",
+        "tests/dispatch/utils.py",
+        "tests/models/test_url.py"
+      ]
+    },
+    {
+      "sha": "fd3b69d2aac4f3625405ad87664fc9a93dc9af45",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/middleware/digest_auth.py",
+        "httpx/models.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/middleware/digest_auth.py",
+        "httpx/models.py",
+        "httpx/utils.py",
+        "tests/client/test_auth.py"
+      ]
+    },
+    {
+      "sha": "71648ece09c5507f401b91e9502083a34078036c",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/middleware/__init__.py",
+        "httpx/middleware/base.py",
+        "httpx/middleware/basic_auth.py",
+        "httpx/middleware/custom_auth.py",
+        "httpx/middleware/redirect.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "httpx/client.py",
+        "httpx/middleware/__init__.py",
+        "httpx/middleware/base.py",
+        "httpx/middleware/basic_auth.py",
+        "httpx/middleware/custom_auth.py",
+        "httpx/middleware/redirect.py",
+        "httpx/utils.py"
+      ]
+    },
+    {
+      "sha": "0f34f3b60f9461fa686f5fa10c2a636a09cbaeff",
+      "seeds": [
+        "httpx/dispatch/http2.py",
+        "httpx/middleware.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/dispatch/http2.py",
+        "httpx/middleware.py",
+        "httpx/models.py",
+        "tests/client/test_headers.py"
+      ]
+    },
+    {
+      "sha": "ab9cd0ea112c703c91cf5a57b61ba2376ab39dac",
+      "seeds": [
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/http2.py"
+      ],
+      "changed": [
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/http2.py",
+        "tests/dispatch/test_http2.py",
+        "tests/dispatch/utils.py"
+      ]
+    },
+    {
+      "sha": "d0953d1d863a8bde628b0d9739b56ee6f98e0972",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/config.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/config.py"
+      ]
+    },
+    {
+      "sha": "40e6e8c99da395ccfa338b89ae412695397728b2",
+      "seeds": [
+        "httpx/auth.py",
+        "httpx/client.py",
+        "httpx/middleware.py"
+      ],
+      "changed": [
+        "httpx/auth.py",
+        "httpx/client.py",
+        "httpx/middleware.py",
+        "tests/client/test_auth.py",
+        "tests/client/test_redirects.py"
+      ]
+    },
+    {
+      "sha": "db7f2d0df365daafbcc4e60fd7e96e8abc1a466e",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/config.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py"
+      ],
+      "changed": [
+        ".travis.yml",
+        "docs/environment_variables.md",
+        "httpx/client.py",
+        "httpx/config.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "tests/test_config.py"
+      ]
+    },
+    {
+      "sha": "a46462764e89bbcf2ac9587e11296a171cef8306",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/exceptions.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/exceptions.py",
+        "httpx/models.py",
+        "tests/client/test_redirects.py"
+      ]
+    },
+    {
+      "sha": "e9b20995f7a9ba8a0ab46b61469f368141f16f55",
+      "seeds": [
+        "httpx/models.py",
+        "httpx/status_codes.py"
+      ],
+      "changed": [
+        "httpx/models.py",
+        "httpx/status_codes.py",
+        "tests/client/test_client.py",
+        "tests/dispatch/test_threaded.py"
+      ]
+    },
+    {
+      "sha": "6f4f18652266a9c138bf31c3dc3638055fc24be7",
+      "seeds": [
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/models.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "docs/environment_variables.md",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/models.py",
+        "httpx/utils.py",
+        "mkdocs.yml",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "1872ae873bcf3dd168089902c6809e433e4bd89d",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/threaded.py",
+        "httpx/dispatch/wsgi.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/threaded.py",
+        "httpx/dispatch/wsgi.py",
+        "tests/test_concurrency.py"
+      ]
+    },
+    {
+      "sha": "80eafe89c2c3377e9f0702952c96044c69909155",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py"
+      ]
+    },
+    {
+      "sha": "fdb13592c9a5f2ec9fa6b6196f6ed64f5dbb25ac",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/connection.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/connection.py",
+        "tests/dispatch/utils.py"
+      ]
+    },
+    {
+      "sha": "14eb81f72d4d744d14cff76c9b30471464587cfd",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "tests/dispatch/utils.py"
+      ]
+    },
+    {
+      "sha": "2e91d8ccddcb7306412916d6731585cd510b4c73",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/asgi.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/asgi.py"
+      ]
+    },
+    {
+      "sha": "c0554e96d912944c51eb5d717944d37d884f4763",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/base.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/threaded.py",
+        "httpx/dispatch/wsgi.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/concurrency/base.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/base.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/threaded.py",
+        "httpx/dispatch/wsgi.py"
+      ]
+    },
+    {
+      "sha": "fc261e814990fd1fddd673dd0cbef51bf549e6e1",
+      "seeds": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/interfaces.py"
+      ],
+      "changed": [
+        "httpx/concurrency/asyncio.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/interfaces.py"
+      ]
+    },
+    {
+      "sha": "c1ec1c33cddc683101ffb046dfb418a9a62cf12b",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/threaded.py",
+        "httpx/dispatch/wsgi.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "docs/api.md",
+        "docs/index.md",
+        "httpx/client.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/dispatch/threaded.py",
+        "httpx/dispatch/wsgi.py",
+        "httpx/models.py",
+        "tests/client/test_async_client.py",
+        "tests/client/test_client.py"
+      ]
+    },
+    {
+      "sha": "dfbfa7c7ec21763518a5f63e3b22c35c27bec64f",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/dispatch/connection.py",
+        "httpx/interfaces.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/dispatch/connection.py",
+        "httpx/interfaces.py",
+        "tests/dispatch/utils.py"
+      ]
+    },
+    {
+      "sha": "a770102fd2d6c2410c028522ab04fe34c2662a66",
+      "seeds": [
+        "httpx/config.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/threaded.py",
+        "httpx/dispatch/wsgi.py",
+        "httpx/interfaces.py"
+      ],
+      "changed": [
+        "httpx/config.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/threaded.py",
+        "httpx/dispatch/wsgi.py",
+        "httpx/interfaces.py",
+        "tests/client/test_auth.py",
+        "tests/client/test_cookies.py",
+        "tests/client/test_headers.py",
+        "tests/client/test_redirects.py",
+        "tests/dispatch/test_threaded.py",
+        "tests/dispatch/utils.py",
+        "tests/test_multipart.py"
+      ]
+    },
+    {
+      "sha": "b2397ff39d136ed84d07fa9b37e23603c6ea2b09",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/concurrency/__init__.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/concurrency/__init__.py",
+        "httpx/concurrency/asyncio.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py"
+      ]
+    },
+    {
+      "sha": "f72fa688027ca3312d52ffd809eb2312778633a6",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/concurrency.py",
+        "httpx/config.py",
+        "httpx/dispatch/connection.py",
+        "httpx/interfaces.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/concurrency.py",
+        "httpx/config.py",
+        "httpx/dispatch/connection.py",
+        "httpx/interfaces.py",
+        "tests/dispatch/utils.py"
+      ]
+    },
+    {
+      "sha": "0e49f23b7537bd8fef2917a739c522aea166a918",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/concurrency.py",
+        "httpx/config.py",
+        "httpx/dispatch/connection.py",
+        "httpx/interfaces.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/concurrency.py",
+        "httpx/config.py",
+        "httpx/dispatch/connection.py",
+        "httpx/interfaces.py",
+        "tests/dispatch/utils.py"
+      ]
+    },
+    {
+      "sha": "ef9fc0f3a70b35aa98fdc3756ecc87af94f884bc",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/wsgi.py"
+      ],
+      "changed": [
+        "docs/advanced.md",
+        "httpx/client.py",
+        "httpx/dispatch/asgi.py",
+        "httpx/dispatch/wsgi.py"
+      ]
+    },
+    {
+      "sha": "43f66d575619d61caeb44ba7fe1bd7598ea6e7fd",
+      "seeds": [
+        "httpx/config.py",
+        "httpx/dispatch/http11.py"
+      ],
+      "changed": [
+        ".travis.yml",
+        "httpx/config.py",
+        "httpx/dispatch/http11.py"
+      ]
+    },
+    {
+      "sha": "04d5ffb01b99397a5b0185db0515e8f7b4131cff",
+      "seeds": [
+        "httpx/api.py",
+        "httpx/client.py"
+      ],
+      "changed": [
+        "httpx/api.py",
+        "httpx/client.py",
+        "tests/client/test_auth.py"
+      ]
+    },
+    {
+      "sha": "3451028251db9518d485c89f5ccf1e2635e902a4",
+      "seeds": [
+        "httpx/concurrency.py",
+        "httpx/interfaces.py"
+      ],
+      "changed": [
+        "httpx/concurrency.py",
+        "httpx/interfaces.py",
+        "tests/dispatch/test_connection_pools.py",
+        "tests/test_api.py"
+      ]
+    },
+    {
+      "sha": "cad9c035008bafd32cb47c50b07c5bfe7868f0f3",
+      "seeds": [
+        "httpx/models.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "httpx/models.py",
+        "httpx/utils.py",
+        "tests/models/test_responses.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "af907e85e175541289768e61ad21511cfa3ec1b7",
+      "seeds": [
+        "httpx/decoders.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/decoders.py",
+        "httpx/models.py",
+        "tests/models/test_responses.py",
+        "tests/test_decoders.py"
+      ]
+    },
+    {
+      "sha": "c5248e6c20650730f6d26d3255d11d713f9f7507",
+      "seeds": [
+        "httpx/config.py",
+        "httpx/dispatch/connection.py"
+      ],
+      "changed": [
+        "httpx/config.py",
+        "httpx/dispatch/connection.py",
+        "tests/test_config.py"
+      ]
+    },
+    {
+      "sha": "80dc3e274e8a797b305baa5005128c6d47cf8f3f",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/exceptions.py",
+        "httpx/interfaces.py",
+        "httpx/models.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        ".gitignore",
+        ".isort.cfg",
+        ".travis.yml",
+        "httpx/__init__.py",
+        "httpx/exceptions.py",
+        "httpx/interfaces.py",
+        "httpx/models.py",
+        "httpx/utils.py",
+        "noxfile.py",
+        "scripts/install",
+        "scripts/lint",
+        "scripts/test",
+        "test-requirements.txt",
+        "tests/models/test_url.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "95dad247b531489f4cf18ac6d8daacf9c4906d18",
+      "seeds": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/exceptions.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/__init__.py",
+        "httpx/client.py",
+        "httpx/exceptions.py",
+        "httpx/models.py",
+        "tests/client/test_headers.py",
+        "tests/client/test_redirects.py"
+      ]
+    },
+    {
+      "sha": "fde30b8d1494679becc8399621644ddbc2f51c54",
+      "seeds": [
+        "httpx/config.py",
+        "httpx/multipart.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "httpx/config.py",
+        "httpx/multipart.py",
+        "httpx/utils.py",
+        "setup.py",
+        "tests/test_config.py"
+      ]
+    },
+    {
+      "sha": "92fbe5fd87143e67cc22a54d69a5d3b3e75abea3",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/concurrency.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/exceptions.py",
+        "httpx/interfaces.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/client.py",
+        "httpx/concurrency.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/exceptions.py",
+        "httpx/interfaces.py",
+        "httpx/models.py",
+        "tests/client/test_async_client.py",
+        "tests/client/test_client.py",
+        "tests/dispatch/utils.py"
+      ]
+    },
+    {
+      "sha": "9142a893ffa2d399add134a42cf72915fa92d0d2",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/client.py",
+        "httpx/models.py",
+        "tests/client/test_client.py",
+        "tests/models/test_url.py"
+      ]
+    },
+    {
+      "sha": "919e8d3f9b634f61c2abdf786610df36d6cd3a82",
+      "seeds": [
+        "httpx/api.py",
+        "httpx/client.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "httpx/api.py",
+        "httpx/client.py",
+        "httpx/utils.py",
+        "tests/.netrc",
+        "tests/client/test_auth.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "66754ad0c58d61d34489294530351aa4b17e217f",
+      "seeds": [
+        "httpx/models.py",
+        "httpx/utils.py"
+      ],
+      "changed": [
+        "httpx/models.py",
+        "httpx/utils.py",
+        "tests/models/test_queryparams.py"
+      ]
+    },
+    {
+      "sha": "44beaa1c8fd2e2882dc6565c026c2fc1385c8d40",
+      "seeds": [
+        "httpx/dispatch/connection_pool.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "docs/api.md",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/models.py"
+      ]
+    },
+    {
+      "sha": "72e6f478970cf2c51d3fd23d5f3aa3150bf0e82a",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "docs/api.md",
+        "httpx/client.py",
+        "httpx/models.py",
+        "tests/client/test_headers.py"
+      ]
+    },
+    {
+      "sha": "7e9110b9784a085899ad7f6516c8666561007b1f",
+      "seeds": [
+        "httpx/client.py",
+        "httpx/models.py"
+      ],
+      "changed": [
+        "httpx/client.py",
+        "httpx/models.py",
+        "requirements.txt",
+        "scripts/lint",
+        "tests/dispatch/test_connection_pools.py",
+        "tests/models/test_responses.py",
+        "tests/models/test_url.py",
+        "tests/test_multipart.py"
+      ]
+    },
+    {
+      "sha": "ec365c0e8e0c81279dc7a482e038aa5b547261e8",
+      "seeds": [
+        "httpx/concurrency.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/exceptions.py",
+        "httpx/interfaces.py"
+      ],
+      "changed": [
+        "httpx/concurrency.py",
+        "httpx/dispatch/connection.py",
+        "httpx/dispatch/connection_pool.py",
+        "httpx/dispatch/http11.py",
+        "httpx/dispatch/http2.py",
+        "httpx/exceptions.py",
+        "httpx/interfaces.py",
+        "tests/dispatch/test_connection_pools.py",
+        "tests/dispatch/test_http2.py",
+        "tests/dispatch/utils.py",
+        "tests/test_multipart.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "repo": "fastapi",
+  "pin": "22381558446c5d1ac376680a6581dd63b3a04119",
+  "filter": {
+    "window": 2000,
+    "max_files": 15,
+    "min_seeds": 2,
+    "pkg_dirs": [
+      "fastapi/"
+    ]
+  },
+  "n_commits": 29,
+  "n_seeds": 102,
+  "commits": [
+    {
+      "sha": "2686c7fbbf9abb17902a2981a9d9fca01f5117b8",
+      "seeds": [
+        "fastapi/applications.py",
+        "fastapi/openapi/docs.py"
+      ],
+      "changed": [
+        "fastapi/applications.py",
+        "fastapi/openapi/docs.py",
+        "tests/test_openapi_cache_root_path.py",
+        "tests/test_swagger_ui_escape.py"
+      ]
+    },
+    {
+      "sha": "22354a253037e0fb23e55dabcb8767943e371702",
+      "seeds": [
+        "fastapi/applications.py",
+        "fastapi/routing.py"
+      ],
+      "changed": [
+        "docs/en/docs/advanced/strict-content-type.md",
+        "docs/en/mkdocs.yml",
+        "docs_src/strict_content_type/__init__.py",
+        "docs_src/strict_content_type/tutorial001_py310.py",
+        "fastapi/applications.py",
+        "fastapi/routing.py",
+        "tests/test_strict_content_type_app_level.py",
+        "tests/test_strict_content_type_nested.py",
+        "tests/test_strict_content_type_router_level.py",
+        "tests/test_tutorial/test_body/test_tutorial001.py",
+        "tests/test_tutorial/test_strict_content_type/__init__.py",
+        "tests/test_tutorial/test_strict_content_type/test_tutorial001.py"
+      ]
+    },
+    {
+      "sha": "590a5e535587cc07041ba12d308c748433ccb168",
+      "seeds": [
+        "fastapi/_compat/v2.py",
+        "fastapi/routing.py"
+      ],
+      "changed": [
+        "docs/en/docs/advanced/custom-response.md",
+        "docs/en/docs/advanced/response-directly.md",
+        "docs/en/docs/how-to/general.md",
+        "docs/en/docs/tutorial/response-model.md",
+        "docs_src/custom_response/tutorial010_py310.py",
+        "fastapi/_compat/v2.py",
+        "fastapi/routing.py",
+        "tests/test_dump_json_fast_path.py",
+        "tests/test_tutorial/test_custom_response/test_tutorial001.py",
+        "tests/test_tutorial/test_custom_response/test_tutorial010.py"
+      ]
+    },
+    {
+      "sha": "2e7d3754cd1c85feb4dfa14ee29a509133cfc203",
+      "seeds": [
+        "fastapi/_compat/__init__.py",
+        "fastapi/_compat/v2.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/openapi/utils.py"
+      ],
+      "changed": [
+        "fastapi/_compat/__init__.py",
+        "fastapi/_compat/v2.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/openapi/utils.py"
+      ]
+    },
+    {
+      "sha": "d59fbc3494940c9afe675cc89271bd0fa744574f",
+      "seeds": [
+        "fastapi/_compat/__init__.py",
+        "fastapi/_compat/shared.py",
+        "fastapi/_compat/v2.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/openapi/models.py",
+        "fastapi/openapi/utils.py",
+        "fastapi/routing.py",
+        "fastapi/utils.py"
+      ],
+      "changed": [
+        "fastapi/_compat/__init__.py",
+        "fastapi/_compat/shared.py",
+        "fastapi/_compat/v2.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/openapi/models.py",
+        "fastapi/openapi/utils.py",
+        "fastapi/routing.py",
+        "fastapi/utils.py"
+      ]
+    },
+    {
+      "sha": "cf55bade7ea6e4bf85a167e8aed1c6167e7a4196",
+      "seeds": [
+        "fastapi/_compat/__init__.py",
+        "fastapi/_compat/v2.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/openapi/utils.py",
+        "fastapi/routing.py"
+      ],
+      "changed": [
+        "fastapi/_compat/__init__.py",
+        "fastapi/_compat/v2.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/openapi/utils.py",
+        "fastapi/routing.py"
+      ]
+    },
+    {
+      "sha": "3c49346238643287780d9f0d673f88b0d02df109",
+      "seeds": [
+        "fastapi/_compat/__init__.py",
+        "fastapi/_compat/shared.py",
+        "fastapi/_compat/v2.py",
+        "fastapi/routing.py",
+        "fastapi/utils.py"
+      ],
+      "changed": [
+        "fastapi/_compat/__init__.py",
+        "fastapi/_compat/shared.py",
+        "fastapi/_compat/v2.py",
+        "fastapi/routing.py",
+        "fastapi/utils.py"
+      ]
+    },
+    {
+      "sha": "3a41403ccda1a727135fec91dea118ad8f2cf50a",
+      "seeds": [
+        "fastapi/applications.py",
+        "fastapi/exceptions.py",
+        "fastapi/openapi/docs.py",
+        "fastapi/param_functions.py",
+        "fastapi/security/oauth2.py"
+      ],
+      "changed": [
+        "docs/en/docs/reference/request.md",
+        "docs/en/docs/reference/response.md",
+        "docs/en/docs/reference/responses.md",
+        "docs/en/docs/reference/security/index.md",
+        "docs/en/docs/reference/websockets.md",
+        "fastapi/applications.py",
+        "fastapi/exceptions.py",
+        "fastapi/openapi/docs.py",
+        "fastapi/param_functions.py",
+        "fastapi/security/oauth2.py"
+      ]
+    },
+    {
+      "sha": "f3f498100f1d0edc344e200b215d42a6e46473fd",
+      "seeds": [
+        "fastapi/_compat/v2.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/utils.py"
+      ],
+      "changed": [
+        ".pre-commit-config.yaml",
+        "fastapi/_compat/v2.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/utils.py"
+      ]
+    },
+    {
+      "sha": "e1117f75505bbdb2d42321a009dbf26c9c2b8b6d",
+      "seeds": [
+        "fastapi/exceptions.py",
+        "fastapi/routing.py"
+      ],
+      "changed": [
+        "fastapi/exceptions.py",
+        "fastapi/routing.py",
+        "tests/test_validation_error_context.py"
+      ]
+    },
+    {
+      "sha": "0b5fa563cdfb887e4145d8419ae91b6a40905349",
+      "seeds": [
+        "fastapi/dependencies/models.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/openapi/utils.py"
+      ],
+      "changed": [
+        "fastapi/dependencies/models.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/openapi/utils.py",
+        "tests/test_security_oauth2_authorization_code_bearer_scopes_openapi.py",
+        "tests/test_security_oauth2_authorization_code_bearer_scopes_openapi_simple.py"
+      ]
+    },
+    {
+      "sha": "bba4d4c95e0de8fc9c99f88c269909d37d64d494",
+      "seeds": [
+        "fastapi/dependencies/models.py",
+        "fastapi/dependencies/utils.py"
+      ],
+      "changed": [
+        "fastapi/dependencies/models.py",
+        "fastapi/dependencies/utils.py",
+        "tests/test_dependency_wrapped.py"
+      ]
+    },
+    {
+      "sha": "7fbd30460f480e90faf321b9158bffb5116000d5",
+      "seeds": [
+        "fastapi/dependencies/models.py",
+        "fastapi/dependencies/utils.py"
+      ],
+      "changed": [
+        "fastapi/dependencies/models.py",
+        "fastapi/dependencies/utils.py",
+        "tests/test_security_scopes.py",
+        "tests/test_security_scopes_sub_dependency.py"
+      ]
+    },
+    {
+      "sha": "85701631a0241c5f02b4940734a5428f66abe167",
+      "seeds": [
+        "fastapi/dependencies/utils.py",
+        "fastapi/params.py"
+      ],
+      "changed": [
+        "fastapi/dependencies/utils.py",
+        "fastapi/params.py",
+        "tests/test_depends_hashable.py"
+      ]
+    },
+    {
+      "sha": "ac438b99342c859ae0e10f7064021125bd247bf5",
+      "seeds": [
+        "fastapi/dependencies/models.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/exceptions.py",
+        "fastapi/param_functions.py",
+        "fastapi/params.py",
+        "fastapi/routing.py",
+        "fastapi/types.py"
+      ],
+      "changed": [
+        "docs/en/docs/tutorial/dependencies/dependencies-with-yield.md",
+        "docs_src/dependencies/tutorial008e.py",
+        "docs_src/dependencies/tutorial008e_an.py",
+        "docs_src/dependencies/tutorial008e_an_py39.py",
+        "fastapi/dependencies/models.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/exceptions.py",
+        "fastapi/param_functions.py",
+        "fastapi/params.py",
+        "fastapi/routing.py",
+        "fastapi/types.py",
+        "tests/test_dependency_yield_scope.py",
+        "tests/test_dependency_yield_scope_websockets.py",
+        "tests/test_tutorial/test_dependencies/test_tutorial008e.py"
+      ]
+    },
+    {
+      "sha": "c144f9fbd356e7e378a6b42cff68cf4a4667111a",
+      "seeds": [
+        "fastapi/dependencies/utils.py",
+        "fastapi/params.py"
+      ],
+      "changed": [
+        "fastapi/dependencies/utils.py",
+        "fastapi/params.py",
+        "tests/test_params_repr.py"
+      ]
+    },
+    {
+      "sha": "d390f2e41fb508de416071d481937bc7be486589",
+      "seeds": [
+        "fastapi/applications.py",
+        "fastapi/background.py",
+        "fastapi/datastructures.py",
+        "fastapi/encoders.py",
+        "fastapi/exceptions.py",
+        "fastapi/openapi/docs.py",
+        "fastapi/param_functions.py",
+        "fastapi/routing.py",
+        "fastapi/security/api_key.py",
+        "fastapi/security/http.py",
+        "fastapi/security/oauth2.py",
+        "fastapi/security/open_id_connect_url.py"
+      ],
+      "changed": [
+        "fastapi/applications.py",
+        "fastapi/background.py",
+        "fastapi/datastructures.py",
+        "fastapi/encoders.py",
+        "fastapi/exceptions.py",
+        "fastapi/openapi/docs.py",
+        "fastapi/param_functions.py",
+        "fastapi/routing.py",
+        "fastapi/security/api_key.py",
+        "fastapi/security/http.py",
+        "fastapi/security/oauth2.py",
+        "fastapi/security/open_id_connect_url.py",
+        "pyproject.toml",
+        "requirements-docs.txt"
+      ]
+    },
+    {
+      "sha": "d8c691f7f09989fa51b331b8a7a1ecfe93815a2f",
+      "seeds": [
+        "fastapi/_compat/__init__.py",
+        "fastapi/_compat/main.py",
+        "fastapi/_compat/may_v1.py",
+        "fastapi/_compat/shared.py",
+        "fastapi/_compat/v1.py",
+        "fastapi/_compat/v2.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/encoders.py",
+        "fastapi/temp_pydantic_v1_params.py",
+        "fastapi/utils.py"
+      ],
+      "changed": [
+        "fastapi/_compat/__init__.py",
+        "fastapi/_compat/main.py",
+        "fastapi/_compat/may_v1.py",
+        "fastapi/_compat/shared.py",
+        "fastapi/_compat/v1.py",
+        "fastapi/_compat/v2.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/encoders.py",
+        "fastapi/temp_pydantic_v1_params.py",
+        "fastapi/utils.py",
+        "tests/test_compat.py",
+        "tests/test_get_model_definitions_formfeed_escape.py",
+        "tests/test_response_model_as_return_annotation.py"
+      ]
+    },
+    {
+      "sha": "c970d8a735f75249ae7badb036bf0560c6c2d186",
+      "seeds": [
+        "fastapi/_compat.py",
+        "fastapi/params.py"
+      ],
+      "changed": [
+        "fastapi/_compat.py",
+        "fastapi/params.py",
+        "tests/test_multi_body_errors.py"
+      ]
+    },
+    {
+      "sha": "e329d78f866a12893699f786f1209a666e1688e3",
+      "seeds": [
+        "fastapi/applications.py",
+        "fastapi/middleware/asyncexitstack.py",
+        "fastapi/routing.py"
+      ],
+      "changed": [
+        "docs/en/docs/advanced/advanced-dependencies.md",
+        "docs/en/docs/tutorial/dependencies/dependencies-with-yield.md",
+        "docs_src/dependencies/tutorial013_an_py310.py",
+        "docs_src/dependencies/tutorial014_an_py310.py",
+        "fastapi/applications.py",
+        "fastapi/middleware/asyncexitstack.py",
+        "fastapi/routing.py",
+        "tests/test_dependency_after_yield_raise.py",
+        "tests/test_dependency_after_yield_streaming.py",
+        "tests/test_dependency_after_yield_websockets.py",
+        "tests/test_dependency_contextmanager.py",
+        "tests/test_dependency_yield_except_httpexception.py",
+        "tests/test_route_scope.py",
+        "tests/test_tutorial/test_dependencies/test_tutorial008c.py"
+      ]
+    },
+    {
+      "sha": "bc5013cd56c1be81aca9b60f43c189c1d05b499a",
+      "seeds": [
+        "fastapi/applications.py",
+        "fastapi/openapi/utils.py"
+      ],
+      "changed": [
+        "fastapi/applications.py",
+        "fastapi/openapi/utils.py",
+        "tests/main.py",
+        "tests/test_application.py"
+      ]
+    },
+    {
+      "sha": "c831cdbde22e2dbaae8bcac4544a5556a5a04b5e",
+      "seeds": [
+        "fastapi/dependencies/utils.py",
+        "fastapi/routing.py"
+      ],
+      "changed": [
+        "fastapi/dependencies/utils.py",
+        "fastapi/routing.py"
+      ]
+    },
+    {
+      "sha": "a95e91e46e230db27a75f39639a1f255a8b177ae",
+      "seeds": [
+        "fastapi/encoders.py",
+        "fastapi/routing.py"
+      ],
+      "changed": [
+        "fastapi/encoders.py",
+        "fastapi/routing.py",
+        "requirements-tests.txt"
+      ]
+    },
+    {
+      "sha": "7563579dc882aebfaeaf2bc37bd97fead72740a3",
+      "seeds": [
+        "fastapi/exception_handlers.py",
+        "fastapi/openapi/utils.py"
+      ],
+      "changed": [
+        "docs_src/handling_errors/tutorial005.py",
+        "fastapi/exception_handlers.py",
+        "fastapi/openapi/utils.py",
+        "pyproject.toml",
+        "tests/test_enforce_once_required_parameter.py"
+      ]
+    },
+    {
+      "sha": "97fdbdd0d8b3e24b3d850865033f6746ee13f82c",
+      "seeds": [
+        "fastapi/applications.py",
+        "fastapi/routing.py"
+      ],
+      "changed": [
+        "fastapi/applications.py",
+        "fastapi/routing.py"
+      ]
+    },
+    {
+      "sha": "2537d9d1c2517f9e552ca2b076b3b63b1acbc55d",
+      "seeds": [
+        "fastapi/dependencies/utils.py",
+        "fastapi/openapi/utils.py"
+      ],
+      "changed": [
+        "docs/en/docs/tutorial/header-param-models.md",
+        "docs_src/header_param_models/tutorial003.py",
+        "docs_src/header_param_models/tutorial003_an.py",
+        "docs_src/header_param_models/tutorial003_an_py310.py",
+        "docs_src/header_param_models/tutorial003_an_py39.py",
+        "docs_src/header_param_models/tutorial003_py310.py",
+        "docs_src/header_param_models/tutorial003_py39.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/openapi/utils.py",
+        "tests/test_tutorial/test_header_param_models/test_tutorial001.py",
+        "tests/test_tutorial/test_header_param_models/test_tutorial002.py",
+        "tests/test_tutorial/test_header_param_models/test_tutorial003.py"
+      ]
+    },
+    {
+      "sha": "8c94e97c89f617ad808d8ca24da6e52a238bcee9",
+      "seeds": [
+        "fastapi/dependencies/utils.py",
+        "fastapi/openapi/utils.py",
+        "fastapi/routing.py"
+      ],
+      "changed": [
+        ".pre-commit-config.yaml",
+        "fastapi/dependencies/utils.py",
+        "fastapi/openapi/utils.py",
+        "fastapi/routing.py",
+        "requirements-docs-tests.txt",
+        "scripts/translate.py",
+        "tests/test_enforce_once_required_parameter.py",
+        "tests/test_generic_parameterless_depends.py",
+        "tests/test_repeated_dependency_schema.py",
+        "tests/test_tutorial/test_configure_swagger_ui/test_tutorial001.py",
+        "tests/test_tutorial/test_configure_swagger_ui/test_tutorial002.py",
+        "tests/test_tutorial/test_configure_swagger_ui/test_tutorial003.py",
+        "tests/test_tutorial/test_sql_databases/test_tutorial002.py"
+      ]
+    },
+    {
+      "sha": "91a929319c4ccaa4569d55edcc52ae774b685eda",
+      "seeds": [
+        "fastapi/_compat.py",
+        "fastapi/params.py"
+      ],
+      "changed": [
+        "fastapi/_compat.py",
+        "fastapi/params.py"
+      ]
+    },
+    {
+      "sha": "8081d2302ec5cffd5d2a35a6e22980d3f03bb395",
+      "seeds": [
+        "fastapi/param_functions.py",
+        "fastapi/security/oauth2.py"
+      ],
+      "changed": [
+        "fastapi/param_functions.py",
+        "fastapi/security/oauth2.py"
+      ]
+    }
+  ]
+}

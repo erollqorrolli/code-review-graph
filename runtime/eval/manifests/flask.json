@@ -1,0 +1,1687 @@
+{
+  "repo": "flask",
+  "pin": "a29f88ce6f2f9843bd6fcbbfce1390a2071965d6",
+  "filter": {
+    "window": 2000,
+    "max_files": 15,
+    "min_seeds": 2,
+    "pkg_dirs": [
+      "src/flask/"
+    ]
+  },
+  "n_commits": 108,
+  "n_seeds": 340,
+  "commits": [
+    {
+      "sha": "a29f88ce6f2f9843bd6fcbbfce1390a2071965d6",
+      "seeds": [
+        "src/flask/ctx.py",
+        "src/flask/helpers.py"
+      ],
+      "changed": [
+        "docs/patterns/streaming.rst",
+        "docs/templating.rst",
+        "src/flask/ctx.py",
+        "src/flask/helpers.py"
+      ]
+    },
+    {
+      "sha": "c17f379390731543eea33a570a47bd4ef76a54fa",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/ctx.py",
+        "src/flask/sessions.py",
+        "src/flask/templating.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/ctx.py",
+        "src/flask/sessions.py",
+        "src/flask/templating.py",
+        "tests/test_basic.py"
+      ]
+    },
+    {
+      "sha": "3709c4a9a87e6ce8c26dc4a951e1df52ac9ecad0",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/sessions.py"
+      ],
+      "changed": [
+        ".pre-commit-config.yaml",
+        "src/flask/app.py",
+        "src/flask/sessions.py"
+      ]
+    },
+    {
+      "sha": "d8259eb11900285af9b80b0fa47f841174c054e3",
+      "seeds": [
+        "src/flask/sansio/app.py",
+        "src/flask/templating.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/design.rst",
+        "docs/patterns/streaming.rst",
+        "docs/patterns/wtforms.rst",
+        "docs/quickstart.rst",
+        "docs/templating.rst",
+        "docs/web-security.rst",
+        "src/flask/sansio/app.py",
+        "src/flask/templating.py"
+      ]
+    },
+    {
+      "sha": "f04c5e696400badaa52b3450ded53e9091c2078a",
+      "seeds": [
+        "src/flask/ctx.py",
+        "src/flask/helpers.py",
+        "src/flask/sansio/app.py",
+        "src/flask/sansio/scaffold.py",
+        "src/flask/sessions.py",
+        "src/flask/testing.py"
+      ],
+      "changed": [
+        ".github/workflows/pre-commit.yaml",
+        ".github/workflows/publish.yaml",
+        ".github/workflows/tests.yaml",
+        ".pre-commit-config.yaml",
+        "src/flask/ctx.py",
+        "src/flask/helpers.py",
+        "src/flask/sansio/app.py",
+        "src/flask/sansio/scaffold.py",
+        "src/flask/sessions.py",
+        "src/flask/testing.py",
+        "uv.lock"
+      ]
+    },
+    {
+      "sha": "165af0a090e229e94ccd93896efc15b9fe0488da",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/testing.py"
+      ],
+      "changed": [
+        ".github/workflows/pre-commit.yaml",
+        ".github/workflows/publish.yaml",
+        ".github/workflows/tests.yaml",
+        ".pre-commit-config.yaml",
+        "requirements/dev.txt",
+        "requirements/docs.txt",
+        "requirements/tests.txt",
+        "requirements/typing.txt",
+        "src/flask/app.py",
+        "src/flask/testing.py"
+      ]
+    },
+    {
+      "sha": "e13373f838ab34027c5a80e16a6cb8262d41eab7",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/sessions.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/config.rst",
+        "pyproject.toml",
+        "src/flask/app.py",
+        "src/flask/sessions.py",
+        "tests/test_basic.py",
+        "tests/type_check/typing_app_decorators.py",
+        "tests/type_check/typing_error_handler.py",
+        "tests/type_check/typing_route.py"
+      ]
+    },
+    {
+      "sha": "9efc1ebeeb431769897798cdf8de2c67dcbbc9c0",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/sessions.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/config.rst",
+        "src/flask/app.py",
+        "src/flask/sessions.py",
+        "tests/test_basic.py"
+      ]
+    },
+    {
+      "sha": "c7a53888a1a514619b0611fd8b7928592f4ed612",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/wrappers.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/config.rst",
+        "docs/web-security.rst",
+        "src/flask/app.py",
+        "src/flask/wrappers.py",
+        "tests/test_basic.py",
+        "tests/test_request.py"
+      ]
+    },
+    {
+      "sha": "1d610e44b396d11113bb6a5d168cc5e996a6dfb9",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/config.py",
+        "src/flask/helpers.py",
+        "src/flask/sansio/scaffold.py",
+        "src/flask/typing.py"
+      ],
+      "changed": [
+        ".github/workflows/tests.yaml",
+        "CHANGES.rst",
+        "docs/async-await.rst",
+        "docs/extensiondev.rst",
+        "docs/installation.rst",
+        "pyproject.toml",
+        "src/flask/app.py",
+        "src/flask/config.py",
+        "src/flask/helpers.py",
+        "src/flask/sansio/scaffold.py",
+        "src/flask/typing.py",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "9e831e915fa875423af0c0de8f53a3780055919e",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/cli.py",
+        "src/flask/helpers.py",
+        "src/flask/sansio/app.py",
+        "src/flask/testing.py",
+        "src/flask/views.py",
+        "src/flask/wrappers.py"
+      ],
+      "changed": [
+        "pyproject.toml",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/cli.py",
+        "src/flask/helpers.py",
+        "src/flask/sansio/app.py",
+        "src/flask/testing.py",
+        "src/flask/views.py",
+        "src/flask/wrappers.py",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "176fdfa0002360670f698d3828cfff11f97349f0",
+      "seeds": [
+        "src/flask/helpers.py",
+        "src/flask/json/provider.py"
+      ],
+      "changed": [
+        "src/flask/helpers.py",
+        "src/flask/json/provider.py"
+      ]
+    },
+    {
+      "sha": "28d5a4d71824ff5823ae310e3fd014b48b33d583",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "tests/test_helpers.py"
+      ]
+    },
+    {
+      "sha": "d718ecf6d3dfc4656d262154c59672437c1ea075",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/sansio/app.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/config.rst",
+        "src/flask/app.py",
+        "src/flask/sansio/app.py"
+      ]
+    },
+    {
+      "sha": "5fdce4c331ac530280cc941179d364a07f4a1088",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/sansio/app.py",
+        "src/flask/sansio/scaffold.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/sansio/app.py",
+        "src/flask/sansio/scaffold.py"
+      ]
+    },
+    {
+      "sha": "08d3185e87cfeccc4bf4d26ee5c4c0dfd4ec8564",
+      "seeds": [
+        "src/flask/ctx.py",
+        "src/flask/helpers.py"
+      ],
+      "changed": [
+        ".pre-commit-config.yaml",
+        "src/flask/ctx.py",
+        "src/flask/helpers.py"
+      ]
+    },
+    {
+      "sha": "9f9550247a2798b9dcc28081c15e266442f4e28a",
+      "seeds": [
+        "src/flask/cli.py",
+        "src/flask/testing.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "pyproject.toml",
+        "requirements/tests-pallets-min.in",
+        "requirements/tests-pallets-min.txt",
+        "src/flask/cli.py",
+        "src/flask/testing.py",
+        "tests/test_cli.py",
+        "tests/test_testing.py"
+      ]
+    },
+    {
+      "sha": "5bb30270d2e68d8d9278ac6f5abf67049acba662",
+      "seeds": [
+        "src/flask/cli.py",
+        "src/flask/testing.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "pyproject.toml",
+        "requirements/tests-pallets-min.in",
+        "requirements/tests-pallets-min.txt",
+        "src/flask/cli.py",
+        "src/flask/testing.py",
+        "tests/test_cli.py",
+        "tests/test_testing.py"
+      ]
+    },
+    {
+      "sha": "3f6b243cec6859185ea4064e84b33c07cc7febf6",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/typing.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/typing.py"
+      ]
+    },
+    {
+      "sha": "0ec7f713d679ceed2c605e62ac5d38d579f29fa0",
+      "seeds": [
+        "src/flask/__init__.py",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/debughelpers.py",
+        "src/flask/json/provider.py",
+        "src/flask/logging.py",
+        "src/flask/sansio/app.py",
+        "src/flask/sansio/blueprints.py",
+        "src/flask/sansio/scaffold.py",
+        "src/flask/templating.py"
+      ],
+      "changed": [
+        "src/flask/__init__.py",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/debughelpers.py",
+        "src/flask/json/provider.py",
+        "src/flask/logging.py",
+        "src/flask/sansio/app.py",
+        "src/flask/sansio/blueprints.py",
+        "src/flask/sansio/scaffold.py",
+        "src/flask/templating.py"
+      ]
+    },
+    {
+      "sha": "a64588f87a2bd7ba557814ec039e3b2af2ce842d",
+      "seeds": [
+        "src/flask/sansio/app.py",
+        "src/flask/sansio/blueprints.py",
+        "src/flask/sansio/scaffold.py"
+      ],
+      "changed": [
+        "src/flask/sansio/app.py",
+        "src/flask/sansio/blueprints.py",
+        "src/flask/sansio/scaffold.py"
+      ]
+    },
+    {
+      "sha": "04994df59f2f642e52ba46ca656088bcdb931262",
+      "seeds": [
+        "src/flask/__init__.py",
+        "src/flask/app.py",
+        "src/flask/globals.py",
+        "src/flask/helpers.py",
+        "src/flask/signals.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/api.rst",
+        "src/flask/__init__.py",
+        "src/flask/app.py",
+        "src/flask/globals.py",
+        "src/flask/helpers.py",
+        "src/flask/signals.py"
+      ]
+    },
+    {
+      "sha": "bda295d37fa3809c95a93d01dd605d0222109889",
+      "seeds": [
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "84e11a1e827c0f55f9b9ee15952eddcf8a6492e0",
+      "seeds": [
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "2e8fe7b2f2b541a60c90c625446647b22c5cacc2",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "src/flask/sessions.py"
+      ],
+      "changed": [
+        ".github/workflows/tests.yaml",
+        ".pre-commit-config.yaml",
+        "CHANGES.rst",
+        "docs/extensiondev.rst",
+        "docs/installation.rst",
+        "examples/celery/pyproject.toml",
+        "pyproject.toml",
+        "requirements/tests.in",
+        "requirements/tests.txt",
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "src/flask/sessions.py",
+        "tests/typing/typing_route.py",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "8239765a4410d13d489e299a99e4a4c6951e190b",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/ctx.py",
+        "src/flask/helpers.py",
+        "src/flask/templating.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/ctx.py",
+        "src/flask/helpers.py",
+        "src/flask/templating.py"
+      ]
+    },
+    {
+      "sha": "c24f8c8199f8ceda7a7cfb5e91773eba595f5b67",
+      "seeds": [
+        "src/flask/helpers.py",
+        "src/flask/sessions.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/config.rst",
+        "src/flask/helpers.py",
+        "src/flask/sessions.py",
+        "tests/test_basic.py"
+      ]
+    },
+    {
+      "sha": "c4b39ba2f3fede0555f18fc03b0f2499bb0d424b",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/testing.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/testing.py"
+      ]
+    },
+    {
+      "sha": "4256fc63044fa0d9c2135443461689b1adaf386d",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "ab93222bd6d4ea26e3aa832a0409489530f3f5e0",
+      "seeds": [
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "09112cfc477a270f4b2990e1daf39db1dbe30e98",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "d178653b5f7a5ee2ba15e215ce60caeeb9ed82e1",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/ctx.py",
+        "src/flask/helpers.py",
+        "src/flask/testing.py",
+        "src/flask/wrappers.py"
+      ],
+      "changed": [
+        ".pre-commit-config.yaml",
+        "requirements/dev.txt",
+        "requirements/docs.txt",
+        "requirements/tests.txt",
+        "requirements/typing.txt",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/ctx.py",
+        "src/flask/helpers.py",
+        "src/flask/testing.py",
+        "src/flask/wrappers.py",
+        "tests/typing/typing_app_decorators.py"
+      ]
+    },
+    {
+      "sha": "714ccefeca33db9e87e8ef4abd0008af05c32a4d",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/json/provider.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/json/provider.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "bfdd37110c67ebeb42061fb43cf684b05291241f",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py",
+        "src/flask/sessions.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/api.rst",
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py",
+        "src/flask/sessions.py",
+        "tests/test_config.py",
+        "tests/test_templating.py"
+      ]
+    },
+    {
+      "sha": "ef95998d79eed3b8350d8db825e3d98f25c179f2",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/cli.py",
+        "src/flask/helpers.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/cli.py",
+        "src/flask/helpers.py",
+        "tests/test_helpers.py"
+      ]
+    },
+    {
+      "sha": "5d8e35653fca0d7ee01519d556c7851089de82ea",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/cli.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/quickstart.rst",
+        "docs/server.rst",
+        "src/flask/app.py",
+        "src/flask/cli.py",
+        "tests/test_cli.py"
+      ]
+    },
+    {
+      "sha": "69f9845ef2da3051d74d4dade3e88ccf5b2ee3de",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/ctx.py",
+        "src/flask/json/__init__.py",
+        "src/flask/json/provider.py",
+        "src/flask/scaffold.py",
+        "src/flask/testing.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/api.rst",
+        "docs/config.rst",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/ctx.py",
+        "src/flask/json/__init__.py",
+        "src/flask/json/provider.py",
+        "src/flask/scaffold.py",
+        "src/flask/testing.py",
+        "tests/test_basic.py",
+        "tests/test_json.py",
+        "tests/test_testing.py"
+      ]
+    },
+    {
+      "sha": "91044c4d769efa7f20455e1b70457a7da95c26d8",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/ctx.py",
+        "src/flask/globals.py",
+        "src/flask/helpers.py",
+        "src/flask/templating.py",
+        "src/flask/testing.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/ctx.py",
+        "src/flask/globals.py",
+        "src/flask/helpers.py",
+        "src/flask/templating.py",
+        "src/flask/testing.py",
+        "tests/test_testing.py"
+      ]
+    },
+    {
+      "sha": "e0dad454810dd081947d3ca2ff376c5096185698",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/ctx.py",
+        "src/flask/scaffold.py",
+        "src/flask/testing.py"
+      ],
+      "changed": [
+        "docs/api.rst",
+        "docs/appcontext.rst",
+        "docs/extensiondev.rst",
+        "docs/patterns/sqlite3.rst",
+        "docs/reqcontext.rst",
+        "src/flask/app.py",
+        "src/flask/ctx.py",
+        "src/flask/scaffold.py",
+        "src/flask/testing.py"
+      ]
+    },
+    {
+      "sha": "82c2e0366ce6b74a3786a64631ce58b85b3a7d4e",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/cli.py",
+        "src/flask/ctx.py",
+        "src/flask/debughelpers.py",
+        "src/flask/helpers.py",
+        "src/flask/templating.py",
+        "src/flask/testing.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/cli.py",
+        "src/flask/ctx.py",
+        "src/flask/debughelpers.py",
+        "src/flask/helpers.py",
+        "src/flask/templating.py",
+        "src/flask/testing.py",
+        "tests/conftest.py",
+        "tests/test_appctx.py",
+        "tests/test_basic.py",
+        "tests/test_reqctx.py",
+        "tests/test_session_interface.py",
+        "tests/test_testing.py"
+      ]
+    },
+    {
+      "sha": "d597db67ded68d4aedf42b9d1d4570573fb79cd6",
+      "seeds": [
+        "src/flask/__init__.py",
+        "src/flask/ctx.py",
+        "src/flask/globals.py",
+        "src/flask/testing.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/__init__.py",
+        "src/flask/ctx.py",
+        "src/flask/globals.py",
+        "src/flask/testing.py"
+      ]
+    },
+    {
+      "sha": "9b44bf2818d8e3cde422ad7f43fb33dfc6737289",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py",
+        "src/flask/typing.py",
+        "src/flask/views.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py",
+        "src/flask/typing.py",
+        "src/flask/views.py",
+        "tests/typing/typing_route.py"
+      ]
+    },
+    {
+      "sha": "ca2bfbb0ac66fbbeeedbf6bbe317bee45cb23d29",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/typing.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/typing.py",
+        "tests/test_basic.py"
+      ]
+    },
+    {
+      "sha": "84c722044ad03f7f5384f5314c8350b3a13d8dfa",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/ctx.py",
+        "src/flask/scaffold.py",
+        "src/flask/testing.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/config.rst",
+        "docs/reqcontext.rst",
+        "src/flask/app.py",
+        "src/flask/ctx.py",
+        "src/flask/scaffold.py",
+        "src/flask/testing.py",
+        "tests/test_basic.py",
+        "tests/test_signals.py",
+        "tests/test_testing.py"
+      ]
+    },
+    {
+      "sha": "5544d09477af3221d988ec18b086930c2d9e67cd",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/cli.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/cli.py",
+        "tests/test_cli.py"
+      ]
+    },
+    {
+      "sha": "46433e9807a1c960d6b2bb0e125cf16a90167d97",
+      "seeds": [
+        "src/flask/__init__.py",
+        "src/flask/templating.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/api.rst",
+        "docs/patterns/streaming.rst",
+        "docs/templating.rst",
+        "src/flask/__init__.py",
+        "src/flask/templating.py",
+        "tests/test_templating.py"
+      ]
+    },
+    {
+      "sha": "762382e436062183b1e1fa6f3bda594090a452e7",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/typing.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/typing.py",
+        "tests/test_basic.py",
+        "tests/typing/typing_route.py"
+      ]
+    },
+    {
+      "sha": "99fa3c36abc03cd5b3407df34dce74e879ea377a",
+      "seeds": [
+        "src/flask/cli.py",
+        "src/flask/helpers.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/cli.py",
+        "src/flask/helpers.py"
+      ]
+    },
+    {
+      "sha": "4f03a769d44f6740490dd4ddf70e094c12a6090c",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/cli.py",
+        "src/flask/debughelpers.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/cli.py",
+        "src/flask/debughelpers.py"
+      ]
+    },
+    {
+      "sha": "96c97dec095f204b8a557c5ea804afdd329e3c43",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "tests/test_async.py",
+        "tests/test_basic.py",
+        "tests/test_blueprints.py"
+      ]
+    },
+    {
+      "sha": "3351a8677e5bd1e1b8cfe2860b73b3422cde4f31",
+      "seeds": [
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py",
+        "src/flask/typing.py"
+      ],
+      "changed": [
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py",
+        "src/flask/typing.py",
+        "tests/typing/typing_error_handler.py"
+      ]
+    },
+    {
+      "sha": "81be290ec8889c157c84bc7ce857f883396c5daf",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py",
+        "src/flask/typing.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py",
+        "src/flask/typing.py",
+        "tests/typing/typing_route.py"
+      ]
+    },
+    {
+      "sha": "61f62e6005f72c44a90026e2589b6bc5234f2f24",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/ctx.py",
+        "src/flask/scaffold.py",
+        "src/flask/views.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/ctx.py",
+        "src/flask/scaffold.py",
+        "src/flask/views.py"
+      ]
+    },
+    {
+      "sha": "a406c297aafa28074d11ec6fd27c246c70418cb4",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "eb36135cfe6a17350617e47b70b9ad383206eded",
+      "seeds": [
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "39f93632964ecabfcb9c1980e2add922098aad80",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/helpers.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "tests/test_helpers.py"
+      ]
+    },
+    {
+      "sha": "92acd05d9bd33419ab885e4472b28a1d5cc15d2e",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/helpers.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/helpers.py"
+      ]
+    },
+    {
+      "sha": "fac630379d31baaa1667894c2b5613304285a4bb",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/helpers.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/helpers.py"
+      ]
+    },
+    {
+      "sha": "eb5dd9f5ef255c578cbbe13c1cb4dd11389d5519",
+      "seeds": [
+        "src/flask/__init__.py",
+        "src/flask/app.py",
+        "src/flask/helpers.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/__init__.py",
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "tests/test_helpers.py"
+      ]
+    },
+    {
+      "sha": "fdab801fbbd9de5adbdb3320ca4a1cb116c892f5",
+      "seeds": [
+        "src/flask/__init__.py",
+        "src/flask/app.py",
+        "src/flask/helpers.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/__init__.py",
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "tests/test_helpers.py"
+      ]
+    },
+    {
+      "sha": "a74e266474f0981e9fc0d54d5dc430386823e4d7",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/ctx.py",
+        "src/flask/globals.py",
+        "src/flask/helpers.py",
+        "src/flask/json/__init__.py",
+        "src/flask/logging.py",
+        "src/flask/scaffold.py",
+        "src/flask/sessions.py",
+        "src/flask/templating.py",
+        "src/flask/testing.py",
+        "src/flask/typing.py",
+        "src/flask/wrappers.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/ctx.py",
+        "src/flask/globals.py",
+        "src/flask/helpers.py",
+        "src/flask/json/__init__.py",
+        "src/flask/logging.py",
+        "src/flask/scaffold.py",
+        "src/flask/sessions.py",
+        "src/flask/templating.py",
+        "src/flask/testing.py",
+        "src/flask/typing.py",
+        "src/flask/wrappers.py"
+      ]
+    },
+    {
+      "sha": "0a300d007d3a5ef902e0b3c91f6189267fbed182",
+      "seeds": [
+        "src/flask/debughelpers.py",
+        "src/flask/wrappers.py"
+      ],
+      "changed": [
+        "src/flask/debughelpers.py",
+        "src/flask/wrappers.py"
+      ]
+    },
+    {
+      "sha": "c9a1f7ad6545c9cc27c41c385f1d4cd9c7cf1a98",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/debughelpers.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/debughelpers.py",
+        "tests/test_basic.py"
+      ]
+    },
+    {
+      "sha": "faaa5594b2406260c3e4197fa6e80c3d19b6ab23",
+      "seeds": [
+        "src/flask/ctx.py",
+        "src/flask/testing.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/ctx.py",
+        "src/flask/testing.py"
+      ]
+    },
+    {
+      "sha": "190dd4df86874495f56bb088fbd0cb1d9f0e77a0",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "src/flask/typing.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "src/flask/typing.py"
+      ]
+    },
+    {
+      "sha": "88863288225d5ee13a79c463f2a39391b6a52c61",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py",
+        "src/flask/typing.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py",
+        "src/flask/typing.py"
+      ]
+    },
+    {
+      "sha": "b7501776a12c15e64b6cdac1e3b903a00df7d285",
+      "seeds": [
+        "src/flask/__init__.py",
+        "src/flask/helpers.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/api.rst",
+        "src/flask/__init__.py",
+        "src/flask/helpers.py"
+      ]
+    },
+    {
+      "sha": "6a4bf9eec13e035cf10ecc16e462049b4c967e41",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/cli.py",
+        "src/flask/debughelpers.py",
+        "src/flask/scaffold.py",
+        "src/flask/signals.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/cli.py",
+        "src/flask/debughelpers.py",
+        "src/flask/scaffold.py",
+        "src/flask/signals.py"
+      ]
+    },
+    {
+      "sha": "9a2adfba4d4310b005c222fcdfb85e96e3e6661d",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "6a4e7e948d7e5bd5b2b76c1b7f1a0392644bee1e",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py",
+        "src/flask/typing.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py",
+        "src/flask/typing.py"
+      ]
+    },
+    {
+      "sha": "a960236117442bec67f89c30dfa014e05483da5a",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/typing.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/typing.py"
+      ]
+    },
+    {
+      "sha": "63b306743fccdd52079034e82cbbeee182a4361d",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/blueprints.py"
+      ]
+    },
+    {
+      "sha": "67b0b7e30d2304f628e966896748032022ac0257",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "src/flask/wrappers.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "src/flask/wrappers.py"
+      ]
+    },
+    {
+      "sha": "141fde1d8ec8663b4be98777750d2f58c6fe44ad",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/wrappers.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/wrappers.py"
+      ]
+    },
+    {
+      "sha": "10a36cb60e10594aa5dbf3c5aba6abbd5f6fcd70",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "bf982718cf30615f2dd17fa71fe17d565ebb1d3e",
+      "seeds": [
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "3ace642ef32eae3fa096bef85a87545eba3f53fc",
+      "seeds": [
+        "src/flask/__init__.py",
+        "src/flask/helpers.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/__init__.py",
+        "src/flask/helpers.py",
+        "tests/test_basic.py"
+      ]
+    },
+    {
+      "sha": "d5aadba4d34f6070377e88429b178ba08eea5349",
+      "seeds": [
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "25884c433f1eddf4537694d4c5f9f78cd9a14955",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/sessions.py",
+        "src/flask/wrappers.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/sessions.py",
+        "src/flask/wrappers.py"
+      ]
+    },
+    {
+      "sha": "1403d35e2a107e0fc693a09898cf605bb18989ad",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/json/__init__.py",
+        "src/flask/templating.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/json/__init__.py",
+        "src/flask/templating.py"
+      ]
+    },
+    {
+      "sha": "2889da67cb15ac6d5d882781d54014286d9ae010",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/helpers.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "tests/test_async.py"
+      ]
+    },
+    {
+      "sha": "7f87f3dd93baf45d5f69f02a2dcf4493dfc4a1be",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "docs/async-await.rst",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py",
+        "tests/test_async.py"
+      ]
+    },
+    {
+      "sha": "10b0d6b33f7a4414fd3f4474c0deceed2e40117e",
+      "seeds": [
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "5c6a0f0c121297362b4c78e4240dd8445b9d9f12",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/helpers.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "tests/test_async.py"
+      ]
+    },
+    {
+      "sha": "85b430a3669191ee0d092393f98c0dae47218cab",
+      "seeds": [
+        "src/flask/helpers.py",
+        "src/flask/sessions.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/helpers.py",
+        "src/flask/sessions.py"
+      ]
+    },
+    {
+      "sha": "8ab4967703c2f5c500174f46b672d80e32f55d85",
+      "seeds": [
+        "src/flask/cli.py",
+        "src/flask/helpers.py",
+        "src/flask/json/__init__.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "src/flask/cli.py",
+        "src/flask/helpers.py",
+        "src/flask/json/__init__.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "f92e820b4bf357e9792d08ce398802715a63eafe",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/blueprints.rst",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "tests/test_blueprints.py"
+      ]
+    },
+    {
+      "sha": "dc3e9c0cc36b7945431454ea1543da4e33023bb2",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/helpers.py"
+      ],
+      "changed": [
+        "docs/async-await.rst",
+        "docs/async_await.rst",
+        "docs/design.rst",
+        "docs/index.rst",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/helpers.py"
+      ]
+    },
+    {
+      "sha": "00f5a3e55ca3b6dd4e98044ab76f055dc74997ac",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py",
+        "tests/test_async.py"
+      ]
+    },
+    {
+      "sha": "6979265fa643ed982d062f38d386c37bbbef0d9b",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/async_await.rst",
+        "docs/design.rst",
+        "docs/index.rst",
+        "requirements/tests.in",
+        "requirements/tests.txt",
+        "setup.py",
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py",
+        "tests/test_async.py"
+      ]
+    },
+    {
+      "sha": "7029674775023c076a1dc03367214d178423809a",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "9f7c602a84faa8371be4ece23e4405282d1283d2",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "fd62210f583e90764be6e8d9f295f37f33a65e48",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "b473e7c97c7c557e64fb84236c7d346b6ad16736",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/json/__init__.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/api.rst",
+        "docs/patterns/jquery.rst",
+        "docs/templating.rst",
+        "src/flask/app.py",
+        "src/flask/json/__init__.py",
+        "tests/test_json.py"
+      ]
+    },
+    {
+      "sha": "055cdc2625c0cdf8cea87524f5c6bcf07f7e5005",
+      "seeds": [
+        "src/flask/__main__.py",
+        "src/flask/cli.py"
+      ],
+      "changed": [
+        "src/flask/__main__.py",
+        "src/flask/cli.py"
+      ]
+    },
+    {
+      "sha": "1936ca8a2e1789efd6169a901a8b60ec62ceb578",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/testing.py",
+        "src/flask/wrappers.py"
+      ],
+      "changed": [
+        "docs/testing.rst",
+        "docs/tutorial/tests.rst",
+        "src/flask/app.py",
+        "src/flask/testing.py",
+        "src/flask/wrappers.py"
+      ]
+    },
+    {
+      "sha": "dc11cdb4a4627b9f8c79e47e39aa7e1357151896",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/helpers.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/config.rst",
+        "docs/patterns/fileuploads.rst",
+        "src/flask/app.py",
+        "src/flask/helpers.py",
+        "tests/test_blueprints.py",
+        "tests/test_helpers.py",
+        "tests/test_regression.py"
+      ]
+    },
+    {
+      "sha": "373f0dd82e68ab7cac7a77344e715dbe68faebd3",
+      "seeds": [
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        ".pre-commit-config.yaml",
+        "requirements/dev.txt",
+        "requirements/docs.txt",
+        "requirements/tests.txt",
+        "src/flask/blueprints.py",
+        "src/flask/scaffold.py",
+        "tests/test_basic.py"
+      ]
+    },
+    {
+      "sha": "b146a13f633b0e2e26e3b8383b3db0feb563bc83",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/app.py",
+        "src/flask/blueprints.py",
+        "src/flask/helpers.py",
+        "src/flask/scaffold.py"
+      ]
+    },
+    {
+      "sha": "756902cca1bab981fbec0ea759d93239d9a711f0",
+      "seeds": [
+        "src/flask/json/__init__.py",
+        "src/flask/json/tag.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/api.rst",
+        "src/flask/json/__init__.py",
+        "src/flask/json/tag.py"
+      ]
+    },
+    {
+      "sha": "57d628ca74513480908a63a6b66c1c8b1af896e8",
+      "seeds": [
+        "src/flask/cli.py",
+        "src/flask/ctx.py",
+        "src/flask/helpers.py"
+      ],
+      "changed": [
+        "src/flask/cli.py",
+        "src/flask/ctx.py",
+        "src/flask/helpers.py",
+        "tests/test_basic.py",
+        "tests/test_cli.py",
+        "tests/test_helpers.py",
+        "tests/test_regression.py",
+        "tests/test_reqctx.py",
+        "tests/test_testing.py"
+      ]
+    },
+    {
+      "sha": "1263d3bd142e4964da123f4e59088aa2968ec7e5",
+      "seeds": [
+        "src/flask/__init__.py",
+        "src/flask/_compat.py",
+        "src/flask/app.py",
+        "src/flask/config.py",
+        "src/flask/logging.py",
+        "src/flask/testing.py"
+      ],
+      "changed": [
+        "src/flask/__init__.py",
+        "src/flask/_compat.py",
+        "src/flask/app.py",
+        "src/flask/config.py",
+        "src/flask/logging.py",
+        "src/flask/testing.py",
+        "tests/test_deprecations.py",
+        "tests/test_logging.py",
+        "tests/test_testing.py"
+      ]
+    },
+    {
+      "sha": "4024a4a89c18a1048b7496cf223c0b8c1e63c485",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/testing.py"
+      ],
+      "changed": [
+        "src/flask/app.py",
+        "src/flask/testing.py"
+      ]
+    },
+    {
+      "sha": "ded3d642a762823702848c5e5c4e041a676a10a1",
+      "seeds": [
+        "src/flask/__init__.py",
+        "src/flask/cli.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/__init__.py",
+        "src/flask/cli.py"
+      ]
+    },
+    {
+      "sha": "c478e5d52f4985a9a58f1ac1d229b47e9f6fe24f",
+      "seeds": [
+        "src/flask/__init__.py",
+        "src/flask/cli.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/__init__.py",
+        "src/flask/cli.py"
+      ]
+    },
+    {
+      "sha": "1617202d91e46a4c2584656969f90aa5d5db7fed",
+      "seeds": [
+        "src/flask/__init__.py",
+        "src/flask/_compat.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "src/flask/__init__.py",
+        "src/flask/_compat.py",
+        "tests/test_deprecations.py"
+      ]
+    },
+    {
+      "sha": "df470aecb96efbcb17ca76e73196c25c38ce6d17",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/logging.py"
+      ],
+      "changed": [
+        "CHANGES.rst",
+        "docs/config.rst",
+        "docs/errorhandling.rst",
+        "docs/logging.rst",
+        "src/flask/app.py",
+        "src/flask/logging.py",
+        "tests/test_logging.py",
+        "tests/test_templating.py"
+      ]
+    },
+    {
+      "sha": "53c893b646252d610e877eb9385e9e250a1ae5e1",
+      "seeds": [
+        "src/flask/app.py",
+        "src/flask/cli.py",
+        "src/flask/ctx.py",
+        "src/flask/helpers.py",
+        "src/flask/testing.py"
+      ],
+      "changed": [
+        "examples/tutorial/flaskr/blog.py",
+        "src/flask/app.py",
+        "src/flask/cli.py",
+        "src/flask/ctx.py",
+        "src/flask/helpers.py",
+        "src/flask/testing.py",
+        "tests/test_basic.py",
+        "tests/test_config.py",
+        "tests/test_instance_config.py",
+        "tests/test_templating.py"
+      ]
+    }
+  ]
+}
