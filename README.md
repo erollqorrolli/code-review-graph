@@ -6,16 +6,27 @@
 >
 > **What it does.** The base tool builds a static call graph to compute the "blast radius" of a code change. Static analysis of Python misses a lot of real calls (dynamic dispatch, unresolved references), which makes that blast radius both noisy and incomplete. This layer records which call edges *actually fire* at runtime (a `sys.setprofile` tracer over each project's own test suite) and compares them to the static graph.
 >
-> **What I found so far.** Measured against two real codebases, the static resolver captures only a **quarter to a third** of the call edges that actually execute:
+> **Finding 1 — static call resolution is badly incomplete.** Measured against two real codebases, the static resolver captures only a **quarter to a third** of the call edges that actually execute:
 >
 > | project | static recall on internal call edges | real edges the resolver missed |
 > |---|---|---|
 > | httpx | 24% | 496 |
 > | flask | 33% | 171 |
 >
-> So the dominant gap is *under-linking* (recall), not over-flagging — execution data recovers the edges static analysis never found. To measure this honestly I also expanded the project's impact benchmark from 13 hand-picked commits to **1,386 graded predictions** mined from git history across three repos.
+> **Finding 2 — recovering those edges substantially improves blast-radius *ranking*.** Feeding the runtime-observed edges back into the graph and re-ranking the blast radius, scored against co-change ground truth over every mined seed:
 >
-> **Status:** in progress. Recall gap confirmed on two repos; next is measuring the effect of a runtime-augmented graph on end-to-end impact-analysis accuracy. See [`runtime/`](runtime/) for the code.
+> | project | MRR (static → augmented) | hit@1 |
+> |---|---|---|
+> | httpx (n=944) | 0.170 → 0.244 (**+43.6%**) | 7.5% → 14.7% |
+> | flask (n=340) | 0.220 → 0.604 (**+174.8%**) | 12.4% → 53.2% |
+>
+> **Finding 3 (negative) — my original hypothesis was wrong.** I predicted the win would come from *demoting* statically-linked edges that never fire at runtime. An ablation attributes **+0.0%** (httpx) and **+2.9%** (flask) to pruning; essentially all of the gain comes from *recovering edges the resolver never found*. The static graph's problem was not phantom edges to prune — it was true edges it never saw. Set-membership precision/recall also barely moved (+0.4pp / +1.7pp): the improvement is to the *ordering* of the blast radius, not its membership.
+>
+> **Method.** To measure this honestly I expanded the project's impact benchmark from 13 hand-picked commits to **1,386 graded predictions** mined from git history, with the commit-selection filter frozen before any result was computed. Thresholds for "counts as a real effect" were pre-registered before each run.
+>
+> **Limitations.** Ground truth is co-change (an imperfect proxy for true impact, and a property of the inherited benchmark); the "runtime" is each project's own test suite, not production traffic; MRR here blends coverage and ordering, so it is not comparable to an ordering-only MRR; Python targets only.
+>
+> **Status:** in progress. See [`runtime/`](runtime/) for the code.
 
 <a href="https://trendshift.io/repositories/23329?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-23329" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/23329" alt="tirth8205%2Fcode-review-graph | Trendshift" width="250" height="55"/></a>
 
