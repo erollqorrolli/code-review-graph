@@ -1,5 +1,22 @@
 <h1 align="center">code-review-graph</h1>
 
+> ## Fork note — Runtime Execution Layer (added by Eroll Qorrolli)
+>
+> This is a fork of [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) (the static graph and everything below this box is Tirth Kanani's work, MIT-licensed). My addition lives entirely in [`runtime/`](runtime/).
+>
+> **What it does.** The base tool builds a static call graph to compute the "blast radius" of a code change. Static analysis of Python misses a lot of real calls (dynamic dispatch, unresolved references), which makes that blast radius both noisy and incomplete. This layer records which call edges *actually fire* at runtime (a `sys.setprofile` tracer over each project's own test suite) and compares them to the static graph.
+>
+> **What I found so far.** Measured against two real codebases, the static resolver captures only a **quarter to a third** of the call edges that actually execute:
+>
+> | project | static recall on internal call edges | real edges the resolver missed |
+> |---|---|---|
+> | httpx | 24% | 496 |
+> | flask | 33% | 171 |
+>
+> So the dominant gap is *under-linking* (recall), not over-flagging — execution data recovers the edges static analysis never found. To measure this honestly I also expanded the project's impact benchmark from 13 hand-picked commits to **1,386 graded predictions** mined from git history across three repos.
+>
+> **Status:** in progress. Recall gap confirmed on two repos; next is measuring the effect of a runtime-augmented graph on end-to-end impact-analysis accuracy. See [`runtime/`](runtime/) for the code.
+
 <a href="https://trendshift.io/repositories/23329?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-23329" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/23329" alt="tirth8205%2Fcode-review-graph | Trendshift" width="250" height="55"/></a>
 
 <p align="center">
