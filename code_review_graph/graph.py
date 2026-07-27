@@ -264,9 +264,18 @@ class GraphStore:
         return self._conn.execute("SELECT last_insert_rowid()").fetchone()[0]
 
     def remove_file_data(self, file_path: str) -> None:
-        """Remove all nodes and edges associated with a file."""
+        """Remove all nodes and edges derived from parsing a file.
+
+        RUNTIME-tier edges are observed, not parsed, so re-parsing the file
+        does not regenerate them; deleting them here would silently discard
+        them on the next incremental update. They are validated against the
+        current nodes when re-materialized instead (see runtime/augment.py).
+        """
         self._conn.execute("DELETE FROM nodes WHERE file_path = ?", (file_path,))
-        self._conn.execute("DELETE FROM edges WHERE file_path = ?", (file_path,))
+        self._conn.execute(
+            "DELETE FROM edges WHERE file_path = ? AND confidence_tier != 'RUNTIME'",
+            (file_path,),
+        )
         self._invalidate_cache()
 
     def _begin_immediate(self) -> None:
