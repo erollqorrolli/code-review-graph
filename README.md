@@ -26,7 +26,9 @@
 >
 > **Limitations.** Ground truth is co-change (an imperfect proxy for true impact, and a property of the inherited benchmark); the "runtime" is each project's own test suite, not production traffic; MRR here blends coverage and ordering, so it is not comparable to an ordering-only MRR; Python targets only.
 >
-> **Status:** in progress. See [`runtime/`](runtime/) for the code.
+> **Full write-up:** [`runtime/README.md`](runtime/README.md) — method, pre-registration, the ablation that separates the two interventions, and limitations.
+>
+> **Status:** in progress. Code in [`runtime/`](runtime/).
 
 <a href="https://trendshift.io/repositories/23329?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-23329" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/23329" alt="tirth8205%2Fcode-review-graph | Trendshift" width="250" height="55"/></a>
 
