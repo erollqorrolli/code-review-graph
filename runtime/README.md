@@ -184,6 +184,35 @@ binary pruning of never-fired edges (+0.0%) and graded weighting by frequency
 resolver never found. **The static graph's deficiency is entirely what it is
 missing, not what it wrongly includes or over-weights.**
 
+### 5. The result is not an artefact of exhaustive test coverage
+
+Every finding above draws its runtime signal from each project's own test
+suite, which is written for coverage rather than representativeness. That was
+the largest caveat on this work, so it is worth testing directly rather than
+just declaring.
+
+`workload/httpx_workload.py` drives httpx the way an application does — a
+handful of endpoints hit repeatedly, through redirects, auth, streaming, error
+handling and client reuse — against an in-process WSGI app, so it is
+deterministic and needs no network while still exercising the real client and
+transport stack.
+
+| httpx (n=944) | edges recovered | MRR | vs static |
+|---|---:|---:|---:|
+| static | — | 0.170 | — |
+| test suite | 498 | 0.244 | +43.6% |
+| application workload | 162 | 0.213 | **+25.0%** |
+
+The workload clears the pre-registered +15% bar, so the effect is not an
+artefact of exhaustive testing. It also recovers about a third of the edges the
+suite does while delivering a little over half the benefit, which suggests a
+short representative run captures most of the value — a more practical
+proposition than asking users to trace an entire test suite.
+
+This narrows the caveat rather than removing it: the workload is
+application-shaped but still synthetic, and it is one library. Tracing genuine
+production traffic remains untested.
+
 ---
 
 ## From experiment to feature
@@ -240,11 +269,12 @@ private `_pytest.monkeypatch.notset` that its `test_cli.py` imports.
 
 These are real and I would rather state them than have them found.
 
-- **The "runtime" is each project's own test suite, not production traffic.**
-  This is the largest weakness. Test suites are written for coverage, not
-  representativeness. The recovered-edge finding survives it — those edges
-  provably fired — but the never-fired finding does not: an edge on an untested
-  path also never fires, so 30%/52% is an upper bound on phantoms.
+- **Runtime signal comes from test suites and one synthetic workload, not
+  production traffic.** Finding 5 shows the ranking result survives on an
+  application-shaped workload (+25.0%), which narrows this considerably, but
+  that workload is still synthetic and covers one library. Separately, the
+  never-fired finding remains suite-dependent: an edge on an unexercised path
+  also never fires, so 30%/52% is an upper bound on phantoms.
 - **Ground truth is co-change**, which is a proxy for "impact" and a noisy one.
   Commits bundle unrelated edits. This is inherited from the benchmark, and
   Finding 3 suggests it may not measure what blast radius is supposed to mean.

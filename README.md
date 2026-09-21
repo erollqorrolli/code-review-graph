@@ -24,9 +24,11 @@
 >
 > **Finding 4 (negative) — execution *frequency* carries no signal either.** The other form of the original thesis — weight each edge by how often it fires — fails its pre-registered bar and actively hurts (httpx −4.3%, flask −35.8%; a mean-preserving variant that removes a confound in the first scheme still loses). So both ways of down-weighting edges by runtime behaviour are refuted; only recovering missing edges helps. **The static graph's deficiency is entirely what it is missing, not what it wrongly includes.**
 >
+> **Finding 5 — the result is not an artefact of exhaustive test coverage.** Re-running with edges recovered from an application-shaped workload (redirects, auth, streaming, error handling) instead of httpx's test suite still gives **+25.0% MRR** over static, clearing its pre-registered bar — while recovering only a third as many edges. A short representative run captures most of the value.
+>
 > **Method.** To measure this honestly I expanded the project's impact benchmark from 13 hand-picked commits to **1,386 graded predictions** mined from git history, with the commit-selection filter frozen before any result was computed. Thresholds for "counts as a real effect" were pre-registered before each run.
 >
-> **Limitations.** Ground truth is co-change (an imperfect proxy for true impact, and a property of the inherited benchmark); the "runtime" is each project's own test suite, not production traffic; MRR here blends coverage and ordering, so it is not comparable to an ordering-only MRR; Python targets only.
+> **Limitations.** Ground truth is co-change (an imperfect proxy for true impact, and a property of the inherited benchmark); runtime signal comes from test suites and one synthetic application workload, not genuine production traffic; MRR here blends coverage and ordering, so it is not comparable to an ordering-only MRR; Python targets only.
 >
 > **Full write-up:** [`runtime/README.md`](runtime/README.md) — method, pre-registration, the ablation that separates the two interventions, and limitations.
 >
