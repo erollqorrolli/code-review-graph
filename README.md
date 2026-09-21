@@ -22,6 +22,8 @@
 >
 > **Finding 3 (negative) — my original hypothesis was wrong.** I predicted the win would come from *demoting* statically-linked edges that never fire at runtime. An ablation attributes **+0.0%** (httpx) and **+2.9%** (flask) to pruning; essentially all of the gain comes from *recovering edges the resolver never found*. The static graph's problem was not phantom edges to prune — it was true edges it never saw. Set-membership precision/recall also barely moved (+0.4pp / +1.7pp): the improvement is to the *ordering* of the blast radius, not its membership.
 >
+> **Finding 4 (negative) — execution *frequency* carries no signal either.** The other form of the original thesis — weight each edge by how often it fires — fails its pre-registered bar and actively hurts (httpx −4.3%, flask −35.8%; a mean-preserving variant that removes a confound in the first scheme still loses). So both ways of down-weighting edges by runtime behaviour are refuted; only recovering missing edges helps. **The static graph's deficiency is entirely what it is missing, not what it wrongly includes.**
+>
 > **Method.** To measure this honestly I expanded the project's impact benchmark from 13 hand-picked commits to **1,386 graded predictions** mined from git history, with the commit-selection filter frozen before any result was computed. Thresholds for "counts as a real effect" were pre-registered before each run.
 >
 > **Limitations.** Ground truth is co-change (an imperfect proxy for true impact, and a property of the inherited benchmark); the "runtime" is each project's own test suite, not production traffic; MRR here blends coverage and ordering, so it is not comparable to an ordering-only MRR; Python targets only.
