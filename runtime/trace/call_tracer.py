@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import sys
 import threading
+from collections import Counter
 
 
 class CallTracer:
@@ -19,6 +20,10 @@ class CallTracer:
         self.pkg = pkg_prefix
         self.edges: set[tuple[str, str]] = set()   # (caller_qual, callee_qual)
         self.fired: set[str] = set()               # callee_qual, package only
+        # How often each edge fired. Presence tells you an edge is real; the
+        # count is a separate signal -- whether a hot path matters more than a
+        # cold one is an open question, not an assumption.
+        self.counts: Counter[tuple[str, str]] = Counter()
 
     def _profile(self, frame, event, arg):
         if event != "call":
@@ -32,7 +37,9 @@ class CallTracer:
         back = frame.f_back
         if back is not None:
             bc = back.f_code
-            self.edges.add((f"{bc.co_filename}::{bc.co_qualname}", callee))
+            edge = (f"{bc.co_filename}::{bc.co_qualname}", callee)
+            self.edges.add(edge)
+            self.counts[edge] += 1
 
     def start(self) -> None:
         sys.setprofile(self._profile)

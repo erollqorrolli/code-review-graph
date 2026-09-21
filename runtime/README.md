@@ -148,6 +148,42 @@ This is worth stating plainly because it is the part I got wrong. An
 intermediate metric I could move a lot (edge recall, 24% → near-complete) did
 not propagate to the end metric it was supposed to improve.
 
+### 4. Execution *frequency* carries no usable signal either
+
+The tracer counts invocations, not just presence, so the other form of the
+original thesis is testable: weight each recovered edge by how often it fired.
+Counts are heavily skewed (httpx median 2, max 48,675), so the weight is a
+log-scaled hit count, fixed in advance rather than swept.
+
+Baseline here is the *augmented* graph, since the question is whether frequency
+adds anything beyond presence. Pre-registered bar: >= +10% MRR, >= +3pp hit@3.
+
+| variant | httpx MRR | flask MRR |
+|---|---:|---:|
+| uniform (presence only) | **0.244** | **0.601** |
+| weighted by frequency | 0.234 (-4.3%) | 0.386 (-35.8%) |
+| mean-preserving weighting | 0.239 (-1.9%) | 0.382 (-36.4%) |
+| inverse weighting (diagnostic) | 0.240 | 0.448 |
+
+Frequency weighting does not merely fail the bar, it actively hurts, on both
+repos.
+
+The first weighting scheme was confounded and the diagnostic row is what caught
+it. My initial guess was that rare edges are the informative ones -- a
+specialised function tied to one feature should co-change more than a hot
+utility that is stable infrastructure. If that were true, *inverse* weighting
+should beat uniform. It does not: uniform beats both directions. The real
+problem was that mapping onto `[MIN_WEIGHT, 1.0]` put almost every runtime edge
+*below* the static edges' 1.0, so the variant conflated frequency-awareness
+with a blanket demotion of the very edges that produce the gain. The
+mean-preserving variant removes that confound and still loses.
+
+So both forms of "weight edges by how they behave at runtime" are refuted:
+binary pruning of never-fired edges (+0.0%) and graded weighting by frequency
+(-2% to -36%). The only intervention that helps is recovering edges the
+resolver never found. **The static graph's deficiency is entirely what it is
+missing, not what it wrongly includes or over-weights.**
+
 ---
 
 ## From experiment to feature

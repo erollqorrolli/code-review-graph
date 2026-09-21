@@ -35,6 +35,9 @@ def main():
         "pytest_exit": int(code),
         "fired_nodes": sorted(tracer.fired),
         "fired_edges": sorted(tracer.edges),
+        # (caller, callee, count) -- kept alongside fired_edges rather than
+        # replacing it, so existing consumers keep working.
+        "fired_edge_counts": sorted([s, t, n] for (s, t), n in tracer.counts.items()),
     }))
     print(f"\n{name}: fired nodes {len(tracer.fired)}  fired edges {len(tracer.edges)}  -> {out}")
 

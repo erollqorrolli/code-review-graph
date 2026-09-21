@@ -870,13 +870,15 @@ class GraphStore:
         SELECT node_qn, MAX(score)
         FROM (
             SELECT e.target_qualified AS node_qn,
-                   f.score * COALESCE(w.weight, ?) * ? AS score
+                   f.score * COALESCE(w.weight, ?) * ?
+                     * COALESCE(e.confidence, 1.0) AS score
             FROM _impact_frontier f
             JOIN edges e ON e.source_qualified = f.node_qn
             LEFT JOIN _impact_weights w ON w.kind = e.kind
             UNION ALL
             SELECT e.source_qualified AS node_qn,
-                   f.score * COALESCE(w.weight, ?) * ? AS score
+                   f.score * COALESCE(w.weight, ?) * ?
+                     * COALESCE(e.confidence, 1.0) AS score
             FROM _impact_frontier f
             JOIN edges e ON e.target_qualified = f.node_qn
             LEFT JOIN _impact_weights w ON w.kind = e.kind
